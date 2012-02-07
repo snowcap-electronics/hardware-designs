@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Mon 19 Dec 2011 14:36:44 EET
+
+BeginCmp
+TimeStamp = /4EDE63E6;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDE63F1;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDE63FA;
+Reference = C3;
+ValeurCmp = 10uF;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EE099C7;
+Reference = CN1;
+ValeurCmp = UART;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EEF248C;
+Reference = CN2;
+ValeurCmp = CN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EE0A0C0;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EE0A0DB;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EE8775A;
+Reference = J1;
+ValeurCmp = USB_MINI;
+IdModule  = USB-MINI-B;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDE4E31;
+Reference = R1;
+ValeurCmp = 500R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDE4E3E;
+Reference = R2;
+ValeurCmp = 500R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDE15C4;
+Reference = U1;
+ValeurCmp = FT232R;
+IdModule  = SSOP28;
+EndCmp
+
+EndListe

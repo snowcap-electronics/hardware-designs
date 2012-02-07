@@ -1,0 +1,128 @@
+# EESchema Netlist Version 1.1 created  Mon 19 Dec 2011 14:36:44 EET
+(
+ ( /4EDE63E6 SM0805 C1 0.1uF
+  ( 1 /3V3 )
+  ( 2 GND )
+ )
+ ( /4EDE63F1 SM0805 C2 0.1uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /4EDE63FA SM1206POL C3 10uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /4EE099C7 SIL-3 CN1 UART
+  ( 1 GND )
+  ( 2 N-000024 )
+  ( 3 N-000022 )
+ )
+ ( /4EEF248C SIL-2 CN2 CN_2
+  ( 1 GND )
+  ( 2 +5V )
+ )
+ ( /4EE0A0C0 LED-0805 D1 LED
+  ( 1 N-000001 )
+  ( 2 N-000011 )
+ )
+ ( /4EE0A0DB LED-0805 D2 LED
+  ( 1 N-000002 )
+  ( 2 N-000013 )
+ )
+ ( /4EE8775A USB-MINI-B J1 USB_MINI
+  ( 1 +5V )
+  ( 2 N-000026 )
+  ( 3 N-000008 )
+  ( 4 ? )
+  ( 5 GND )
+ )
+ ( /4EDE4E31 SM0805 R1 500R
+  ( 1 +5V )
+  ( 2 N-000001 )
+ )
+ ( /4EDE4E3E SM0805 R2 500R
+  ( 1 +5V )
+  ( 2 N-000002 )
+ )
+ ( /4EDE15C4 SSOP28 U1 FT232R
+  ( 1 N-000022 )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 /3V3 )
+  ( 5 N-000024 )
+  ( 6 ? )
+  ( 7 GND )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 N-000008 )
+  ( 16 N-000026 )
+  ( 17 /3V3 )
+  ( 18 GND )
+  ( 19 ? )
+  ( 20 +5V )
+  ( 21 GND )
+  ( 22 N-000013 )
+  ( 23 N-000011 )
+  ( 24 ? )
+  ( 25 GND )
+  ( 26 GND )
+  ( 27 ? )
+  ( 28 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component J1
+ USB
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$endfootprintlist
+}
