@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 17 Feb 2012 13:35:42 EET
+EESchema Schematic File Version 2  date Fri 17 Feb 2012 14:11:39 EET
 LIBS:snowcap
 LIBS:power
 LIBS:device
@@ -45,6 +45,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	4750 2500 4350 2500
+Wire Wire Line
+	4350 2500 4350 2950
+Wire Wire Line
+	4650 2750 4650 2600
+Wire Wire Line
+	4650 2600 4750 2600
 Wire Wire Line
 	1350 4750 1350 4600
 Wire Wire Line
@@ -261,6 +269,41 @@ Wire Wire Line
 	1250 3700 1350 3700
 Wire Wire Line
 	1350 3700 1350 3600
+Wire Wire Line
+	4750 2300 4650 2300
+Wire Wire Line
+	4650 2300 4650 2150
+Wire Wire Line
+	4250 2950 4250 2400
+Wire Wire Line
+	4250 2400 4750 2400
+$Comp
+L GND #PWR?
+U 1 1 4F3E43C1
+P 4650 2750
+F 0 "#PWR?" H 4650 2750 30  0001 C CNN
+F 1 "GND" H 4650 2680 30  0001 C CNN
+	1    4650 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 4F3E43B6
+P 4650 2150
+F 0 "#PWR?" H 4650 2110 30  0001 C CNN
+F 1 "+3.3V" H 4650 2260 30  0000 C CNN
+	1    4650 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CN_4 CN?
+U 1 1 4F3E428E
+P 5100 2450
+F 0 "CN?" V 5050 2450 50  0000 C CNN
+F 1 "CN_4" V 5150 2450 40  0000 C CNN
+	1    5100 2450
+	1    0    0    -1  
+$EndComp
 $Comp
 L GND #PWR?
 U 1 1 4F3E3B06
