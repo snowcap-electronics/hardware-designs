@@ -1,104 +1,80 @@
-# EESchema Netlist Version 1.1 created  Mon 19 Dec 2011 14:36:44 EET
+# EESchema Netlist Version 1.1 created  Tue 27 Mar 2012 10:15:35 EEST
 (
- ( /4EDE63E6 SM0805 C1 0.1uF
-  ( 1 /3V3 )
-  ( 2 GND )
+ ( /4EE8775A $noname  J1 USB_MINI {Lib=USB_MINI}
+  (    1 +5V )
+  (    2 N-000026 )
+  (    3 N-000009 )
+  (    4 ? )
+  (    5 GND )
  )
- ( /4EDE63F1 SM0805 C2 0.1uF
-  ( 1 +5V )
-  ( 2 GND )
+ ( /4EE0A0DB $noname  D2 LED {Lib=LED}
+  (    1 N-000002 )
+  (    2 N-000014 )
  )
- ( /4EDE63FA SM1206POL C3 10uF
-  ( 1 +5V )
-  ( 2 GND )
+ ( /4EE0A0C0 $noname  D1 LED {Lib=LED}
+  (    1 N-000001 )
+  (    2 N-000012 )
  )
- ( /4EE099C7 SIL-3 CN1 UART
-  ( 1 GND )
-  ( 2 N-000024 )
-  ( 3 N-000022 )
+ ( /4EE099C7 $noname  CN1 UART {Lib=CN_3}
+  (    1 GND )
+  (    2 N-000023 )
+  (    3 N-000024 )
  )
- ( /4EEF248C SIL-2 CN2 CN_2
-  ( 1 GND )
-  ( 2 +5V )
+ ( /4EDE63FA $noname  C3 10uF {Lib=CP1}
+  (    1 +5V )
+  (    2 GND )
  )
- ( /4EE0A0C0 LED-0805 D1 LED
-  ( 1 N-000001 )
-  ( 2 N-000011 )
+ ( /4EDE63F1 $noname  C2 0.1uF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
  )
- ( /4EE0A0DB LED-0805 D2 LED
-  ( 1 N-000002 )
-  ( 2 N-000013 )
+ ( /4EDE63E6 $noname  C1 0.1uF {Lib=C}
+  (    1 /3V3 )
+  (    2 GND )
  )
- ( /4EE8775A USB-MINI-B J1 USB_MINI
-  ( 1 +5V )
-  ( 2 N-000026 )
-  ( 3 N-000008 )
-  ( 4 ? )
-  ( 5 GND )
+ ( /4EDE4E3E $noname  R2 500R {Lib=R}
+  (    1 +5V )
+  (    2 N-000002 )
  )
- ( /4EDE4E31 SM0805 R1 500R
-  ( 1 +5V )
-  ( 2 N-000001 )
+ ( /4EDE4E31 $noname  R1 500R {Lib=R}
+  (    1 +5V )
+  (    2 N-000001 )
  )
- ( /4EDE4E3E SM0805 R2 500R
-  ( 1 +5V )
-  ( 2 N-000002 )
- )
- ( /4EDE15C4 SSOP28 U1 FT232R
-  ( 1 N-000022 )
-  ( 2 ? )
-  ( 3 ? )
-  ( 4 /3V3 )
-  ( 5 N-000024 )
-  ( 6 ? )
-  ( 7 GND )
-  ( 8 ? )
-  ( 9 ? )
-  ( 10 ? )
-  ( 11 ? )
-  ( 12 ? )
-  ( 13 ? )
-  ( 14 ? )
-  ( 15 N-000008 )
-  ( 16 N-000026 )
-  ( 17 /3V3 )
-  ( 18 GND )
-  ( 19 ? )
-  ( 20 +5V )
-  ( 21 GND )
-  ( 22 N-000013 )
-  ( 23 N-000011 )
-  ( 24 ? )
-  ( 25 GND )
-  ( 26 GND )
-  ( 27 ? )
-  ( 28 ? )
+ ( /4EDE15C4 $noname  U1 FT232R {Lib=FT232R}
+  (    1 N-000023 )
+  (    2 ? )
+  (    3 ? )
+  (    4 /3V3 )
+  (    5 N-000024 )
+  (    6 ? )
+  (    7 GND )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 N-000009 )
+  (   16 N-000026 )
+  (   17 /3V3 )
+  (   18 GND )
+  (   19 ? )
+  (   20 +5V )
+  (   21 GND )
+  (   22 N-000014 )
+  (   23 N-000012 )
+  (   24 ? )
+  (   25 GND )
+  (   26 GND )
+  (   27 ? )
+  (   28 ? )
  )
 )
 *
 { Allowed footprints by component:
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component C3
- CP*
- SM*
-$endlist
-$component D1
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
+$component J1
+ USB
 $endlist
 $component D2
  LED-3MM
@@ -109,14 +85,28 @@ $component D2
  LED-1206
  LEDV
 $endlist
-$component J1
- USB
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
 $endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
+$component C3
+ CP*
+ SM*
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
 $endlist
 $component R2
  R?
@@ -124,5 +114,60 @@ $component R2
  SM0805
  R?-*
 $endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
 $endfootprintlist
 }
+{ Pin List by Nets
+Net 1 "" ""
+ D1 1
+ R1 2
+Net 2 "" ""
+ D2 1
+ R2 2
+Net 3 "+5V" "+5V"
+ J1 1
+ C2 1
+ C3 1
+ U1 20
+ R2 1
+ R1 1
+Net 7 "GND" "GND"
+ J1 5
+ U1 21
+ U1 18
+ C3 2
+ C2 2
+ C1 2
+ U1 26
+ U1 25
+ U1 7
+ CN1 1
+Net 9 "" ""
+ U1 15
+ J1 3
+Net 12 "" ""
+ D1 2
+ U1 23
+Net 14 "" ""
+ U1 22
+ D2 2
+Net 20 "/3V3" "3V3"
+ C1 1
+ U1 17
+ U1 4
+Net 23 "" ""
+ CN1 2
+ U1 1
+Net 24 "" ""
+ U1 5
+ CN1 3
+Net 26 "" ""
+ U1 16
+ J1 2
+}
+#End

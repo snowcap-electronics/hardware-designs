@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 19 Dec 2011 13:50:00 EET
+EESchema Schematic File Version 2  date Tue 27 Mar 2012 10:04:20 EEST
 LIBS:snowcap
 LIBS:power
 LIBS:device
@@ -36,7 +36,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "USB to serial"
-Date "19 dec 2011"
+Date "27 mar 2012"
 Rev "1"
 Comp ""
 Comment1 ""
@@ -102,9 +102,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 3500 7050 3850
 Wire Wire Line
-	3350 3000 3450 3000
-Wire Wire Line
-	3450 3000 3450 3100
+	3350 2700 3450 2700
 Wire Wire Line
 	5150 3200 4300 3200
 Wire Wire Line
@@ -184,11 +182,11 @@ $EndComp
 $Comp
 L CN_3 CN1
 U 1 1 4EE099C7
-P 3000 2900
-F 0 "CN1" V 2950 2900 50  0000 C CNN
-F 1 "UART" V 3050 2900 40  0000 C CNN
-	1    3000 2900
-	-1   0    0    1   
+P 3000 2800
+F 0 "CN1" V 2950 2800 50  0000 C CNN
+F 1 "UART" V 3050 2800 40  0000 C CNN
+	1    3000 2800
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR11
@@ -247,11 +245,11 @@ $EndComp
 $Comp
 L GND #PWR3
 U 1 1 4EDE5F9F
-P 3450 3100
-F 0 "#PWR3" H 3450 3100 30  0001 C CNN
-F 1 "GND" H 3450 3030 30  0001 C CNN
-	1    3450 3100
-	1    0    0    -1  
+P 3450 2700
+F 0 "#PWR3" H 3450 2700 30  0001 C CNN
+F 1 "GND" H 3450 2630 30  0001 C CNN
+	1    3450 2700
+	0    -1   1    0   
 $EndComp
 $Comp
 L +5V #PWR9
