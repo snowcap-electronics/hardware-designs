@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Thu 22 Mar 2012 10:04:00 EET
+# EESchema Netlist Version 1.1 created  Tue 27 Mar 2012 15:35:07 EEST
 (
  ( /4F34D810 SM-0402 C1 100nF
   ( 1 +3.3V )
@@ -114,7 +114,7 @@
   ( 3 N-000058 )
   ( 4 GND )
  )
- ( /4F3E2689 $noname$ CN4 ANT
+ ( /4F3E2689 RF_SMA CN4 ANT
   ( 1 N-000005 )
  )
  ( /4F3E1091 SM-0402 L1 27nH
@@ -137,7 +137,7 @@
   ( 1 N-000021 )
   ( 2 GND )
  )
- ( /4F33C35C $noname$ U1 CC430F513X
+ ( /4F33C35C 48VQFN U1 CC430F513X
   ( 1 ? )
   ( 2 ? )
   ( 3 ? )
@@ -187,7 +187,7 @@
   ( 47 ? )
   ( 48 ? )
  )
- ( /4F33C4F3 $noname$ X1 26MHz
+ ( /4F33C4F3 CRYSTAL-ABM3B X1 26MHz
   ( 1 N-000049 )
   ( 2 N-000048 )
  )

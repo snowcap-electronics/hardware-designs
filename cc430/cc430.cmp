@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Thu 22 Mar 2012 10:04:00 EET
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Tue 27 Mar 2012 15:35:07 EEST
 
 BeginCmp
 TimeStamp = /4F34D810;
@@ -172,7 +172,7 @@ BeginCmp
 TimeStamp = /4F3E2689;
 Reference = CN4;
 ValeurCmp = ANT;
-IdModule  = ;
+IdModule  = RF_SMA;
 EndCmp
 
 BeginCmp
@@ -214,14 +214,14 @@ BeginCmp
 TimeStamp = /4F33C35C;
 Reference = U1;
 ValeurCmp = CC430F513X;
-IdModule  = ;
+IdModule  = 48VQFN;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F33C4F3;
 Reference = X1;
 ValeurCmp = 26MHz;
-IdModule  = ;
+IdModule  = CRYSTAL-ABM3B;
 EndCmp
 
 EndListe
