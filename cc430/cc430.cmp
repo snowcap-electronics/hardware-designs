@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Fri 30 Mar 2012 12:25:31 EEST
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Mon 02 Apr 2012 13:33:49 EEST
 
 BeginCmp
 TimeStamp = /4F34D810;
@@ -25,7 +25,7 @@ BeginCmp
 TimeStamp = /4F38F671;
 Reference = C4;
 ValeurCmp = 10uF;
-IdModule  = SM-0402;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -162,13 +162,6 @@ IdModule  = CONN-10-2MM;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F3E428E;
-Reference = CN3;
-ValeurCmp = CN_4;
-IdModule  = SIL-4;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F3E2689;
 Reference = CN4;
 ValeurCmp = ANT;
@@ -211,10 +204,31 @@ IdModule  = SM-0402;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F796551;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = SM-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F796541;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = SM-0402;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F33C35C;
 Reference = U1;
 ValeurCmp = CC430F513X;
 IdModule  = 48VQFN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F79727B;
+Reference = U2;
+ValeurCmp = TMP275;
+IdModule  = MSOP_8;
 EndCmp
 
 BeginCmp
