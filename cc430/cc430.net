@@ -1,249 +1,256 @@
-# EESchema Netlist Version 1.1 created  Mon 02 Apr 2012 13:58:52 EEST
+# EESchema Netlist Version 1.1 created  Tue 03 Apr 2012 10:38:15 EEST
 (
- ( /4F79727B $noname  U2 TMP275 {Lib=TMP275}
-  (    1 N-000054 )
-  (    2 N-000012 )
-  (    3 ? )
-  (    4 GND )
-  (    5 +3.3V )
-  (    6 +3.3V )
-  (    7 +3.3V )
-  (    8 +3.3V )
+ ( /4F34D810 SM-0402 C1 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
  )
- ( /4F796551 $noname  R2 R {Lib=R}
-  (    1 N-000054 )
-  (    2 +3.3V )
+ ( /4F34D86C SM-0402 C2 470nF
+  ( 1 N-000044 )
+  ( 2 GND )
  )
- ( /4F796541 $noname  R3 R {Lib=R}
-  (    1 N-000012 )
-  (    2 +3.3V )
+ ( /4F34D69E SM-0402 C3 100nF
+  ( 1 GND )
+  ( 2 +3.3V )
  )
- ( /4F3E2689 $noname  CN4 ANT {Lib=ANT}
-  (    1 N-000014 )
+ ( /4F38F671 SM0805 C4 10uF
+  ( 1 GND )
+  ( 2 +3.3V )
  )
- ( /4F3E1557 $noname  CN1 CN_10 {Lib=CN_10}
-  (    1 +3.3V )
-  (    2 N-000046 )
-  (    3 N-000011 )
-  (    4 ? )
-  (    5 N-000052 )
-  (    6 N-000009 )
-  (    7 ? )
-  (    8 ? )
-  (    9 ? )
-  (   10 GND )
+ ( /4F34D7B6 SM-0402 C5 100nF
+  ( 1 GND )
+  ( 2 +3.3V )
  )
- ( /4F3E1554 $noname  CN2 CN_10 {Lib=CN_10}
-  (    1 N-000012 )
-  (    2 N-000054 )
-  (    3 N-000030 )
-  (    4 N-000019 )
-  (    5 N-000020 )
-  (    6 ? )
-  (    7 ? )
-  (    8 ? )
-  (    9 N-000015 )
-  (   10 ? )
+ ( /4F34D2EC SM-0402 C6 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
  )
- ( /4F3E136D $noname  C21 220pF {Lib=C}
-  (    1 N-000014 )
-  (    2 N-000056 )
+ ( /4F33C511 SM-0402 C7 27pF
+  ( 1 N-000050 )
+  ( 2 GND )
  )
- ( /4F3E11F3 $noname  L4 27nH {Lib=INDUCTOR}
-  (    1 N-000004 )
-  (    2 N-000056 )
+ ( /4F38F98F SM-0402 C8 100nF
+  ( 1 GND )
+  ( 2 +3.3V )
  )
- ( /4F3E11F2 $noname  C20 5p6F {Lib=C}
-  (    1 N-000056 )
-  (    2 GND )
+ ( /4F33C51B SM-0402 C9 27pF
+  ( 1 N-000049 )
+  ( 2 GND )
  )
- ( /4F3E11CA $noname  C19 8p2F {Lib=C}
-  (    1 N-000004 )
-  (    2 GND )
+ ( /4F38FABD SM-0402 C10 100nF
+  ( 1 GND )
+  ( 2 N-000025 )
  )
- ( /4F3E117C $noname  L3 22nH {Lib=INDUCTOR}
-  (    1 N-000057 )
-  (    2 N-000004 )
+ ( /4F38FA0F SM-0402 C11 100nF
+  ( 1 N-000037 )
+  ( 2 GND )
  )
- ( /4F3E1100 $noname  C18 3p9F {Lib=C}
-  (    1 N-000057 )
-  (    2 N-000058 )
+ ( /4F38FABC SM-0402 C12 2pF
+  ( 1 GND )
+  ( 2 N-000053 )
  )
- ( /4F3E10B4 $noname  C17 220pF {Lib=C}
-  (    1 N-000003 )
-  (    2 GND )
+ ( /4F38FA1D SM-0402 C13 2pF
+  ( 1 N-000052 )
+  ( 2 GND )
  )
- ( /4F3E1091 $noname  L1 27nH {Lib=INDUCTOR}
-  (    1 N-000058 )
-  (    2 N-000003 )
+ ( /4F38FABB SM-0402 C14 100nF
+  ( 1 GND )
+  ( 2 N-000053 )
  )
- ( /4F3E105C $noname  C16 3p9F {Lib=C}
-  (    1 GND )
-  (    2 N-000001 )
+ ( /4F38FA21 SM-0402 C15 100nF
+  ( 1 N-000052 )
+  ( 2 GND )
  )
- ( /4F3E1004 $noname  L2 27nH {Lib=INDUCTOR}
-  (    1 N-000001 )
-  (    2 N-000057 )
+ ( /4F3E105C SM-0402 C16 3p9F
+  ( 1 GND )
+  ( 2 N-000058 )
  )
- ( /4F38FABD $noname  C10 100nF {Lib=C}
-  (    1 GND )
-  (    2 N-000026 )
+ ( /4F3E10B4 SM-0402 C17 220pF
+  ( 1 N-000001 )
+  ( 2 GND )
  )
- ( /4F38FABC $noname  C12 2pF {Lib=C}
-  (    1 GND )
-  (    2 N-000002 )
+ ( /4F3E1100 SM-0402 C18 3p9F
+  ( 1 N-000003 )
+  ( 2 N-000002 )
  )
- ( /4F38FABB $noname  C14 100nF {Lib=C}
-  (    1 GND )
-  (    2 N-000002 )
+ ( /4F3E11CA SM-0402 C19 8p2F
+  ( 1 N-000057 )
+  ( 2 GND )
  )
- ( /4F38FA21 $noname  C15 100nF {Lib=C}
-  (    1 N-000005 )
-  (    2 GND )
+ ( /4F3E11F2 SM-0402 C20 5p6F
+  ( 1 N-000011 )
+  ( 2 GND )
  )
- ( /4F38FA1D $noname  C13 2pF {Lib=C}
-  (    1 N-000005 )
-  (    2 GND )
+ ( /4F3E136D SM-0402 C21 220pF
+  ( 1 N-000012 )
+  ( 2 N-000011 )
  )
- ( /4F38FA0F $noname  C11 100nF {Lib=C}
-  (    1 N-000038 )
-  (    2 GND )
+ ( /4F7AA82B SM-0402 C22 100nF
+  ( 1 +3.3V )
+  ( 2 GND )
  )
- ( /4F38F98F $noname  C8 100nF {Lib=C}
-  (    1 GND )
-  (    2 +3.3V )
+ ( /4F3E1557 CONN-10-2MM CN1 CN_10
+  ( 1 +3.3V )
+  ( 2 N-000008 )
+  ( 3 N-000055 )
+  ( 4 ? )
+  ( 5 N-000006 )
+  ( 6 N-000054 )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 GND )
  )
- ( /4F38F6D4 $noname  R1 56K {Lib=R}
-  (    1 N-000023 )
-  (    2 GND )
+ ( /4F3E1554 CONN-10-2MM CN2 CN_10
+  ( 1 N-000056 )
+  ( 2 N-000029 )
+  ( 3 N-000017 )
+  ( 4 N-000045 )
+  ( 5 N-000016 )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 N-000023 )
+  ( 10 ? )
  )
- ( /4F38F671 $noname  C4 10uF {Lib=C}
-  (    1 GND )
-  (    2 +3.3V )
+ ( /4F3E2689 RF_SMA CN4 ANT
+  ( 1 N-000012 )
  )
- ( /4F34D86C $noname  C2 470nF {Lib=C}
-  (    1 N-000045 )
-  (    2 GND )
+ ( /4F3E1091 SM-0402 L1 27nH
+  ( 1 N-000002 )
+  ( 2 N-000001 )
  )
- ( /4F34D810 $noname  C1 100nF {Lib=C}
-  (    1 +3.3V )
-  (    2 GND )
+ ( /4F3E1004 SM-0402 L2 27nH
+  ( 1 N-000058 )
+  ( 2 N-000003 )
  )
- ( /4F34D7B6 $noname  C5 100nF {Lib=C}
-  (    1 GND )
-  (    2 +3.3V )
+ ( /4F3E117C SM-0402 L3 22nH
+  ( 1 N-000003 )
+  ( 2 N-000057 )
  )
- ( /4F34D69E $noname  C3 100nF {Lib=C}
-  (    1 GND )
-  (    2 +3.3V )
+ ( /4F3E11F3 SM-0402 L4 27nH
+  ( 1 N-000057 )
+  ( 2 N-000011 )
  )
- ( /4F34D2EC $noname  C6 100nF {Lib=C}
-  (    1 +3.3V )
-  (    2 GND )
+ ( /4F38F6D4 SM-0402 R1 56K
+  ( 1 N-000021 )
+  ( 2 GND )
  )
- ( /4F33C51B $noname  C9 27pF {Lib=C}
-  (    1 N-000050 )
-  (    2 GND )
+ ( /4F796551 SM-0402 R2 R
+  ( 1 N-000029 )
+  ( 2 +3.3V )
  )
- ( /4F33C511 $noname  C7 27pF {Lib=C}
-  (    1 N-000051 )
-  (    2 GND )
+ ( /4F796541 SM-0402 R3 R
+  ( 1 N-000056 )
+  ( 2 +3.3V )
  )
- ( /4F33C4F3 $noname  X1 26MHz {Lib=CRYSTAL}
-  (    1 N-000051 )
-  (    2 N-000050 )
+ ( /4F33C35C 48VQFN U1 CC430F513X
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 N-000045 )
+  ( 5 N-000055 )
+  ( 6 N-000008 )
+  ( 7 N-000044 )
+  ( 8 +3.3V )
+  ( 9 N-000017 )
+  ( 10 N-000029 )
+  ( 11 N-000056 )
+  ( 12 ? )
+  ( 13 N-000023 )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 ? )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 ? )
+  ( 21 ? )
+  ( 22 +3.3V )
+  ( 23 ? )
+  ( 24 N-000016 )
+  ( 25 N-000050 )
+  ( 26 N-000049 )
+  ( 27 N-000037 )
+  ( 28 N-000052 )
+  ( 29 N-000002 )
+  ( 30 N-000058 )
+  ( 31 N-000053 )
+  ( 32 N-000025 )
+  ( 33 N-000021 )
+  ( 34 +3.3V )
+  ( 35 ? )
+  ( 36 ? )
+  ( 37 ? )
+  ( 38 ? )
+  ( 39 N-000054 )
+  ( 40 N-000006 )
+  ( 41 +3.3V )
+  ( 42 GND )
+  ( 43 ? )
+  ( 44 ? )
+  ( 45 +3.3V )
+  ( 46 ? )
+  ( 47 ? )
+  ( 48 ? )
  )
- ( /4F33C35C $noname  U1 CC430F513X {Lib=CC430F513X}
-  (    1 ? )
-  (    2 ? )
-  (    3 ? )
-  (    4 N-000019 )
-  (    5 N-000011 )
-  (    6 N-000046 )
-  (    7 N-000045 )
-  (    8 +3.3V )
-  (    9 N-000030 )
-  (   10 N-000054 )
-  (   11 N-000012 )
-  (   12 ? )
-  (   13 N-000015 )
-  (   14 ? )
-  (   15 ? )
-  (   16 ? )
-  (   17 ? )
-  (   18 ? )
-  (   19 ? )
-  (   20 ? )
-  (   21 ? )
-  (   22 +3.3V )
-  (   23 ? )
-  (   24 N-000020 )
-  (   25 N-000051 )
-  (   26 N-000050 )
-  (   27 N-000038 )
-  (   28 N-000005 )
-  (   29 N-000058 )
-  (   30 N-000001 )
-  (   31 N-000002 )
-  (   32 N-000026 )
-  (   33 N-000023 )
-  (   34 +3.3V )
-  (   35 ? )
-  (   36 ? )
-  (   37 ? )
-  (   38 ? )
-  (   39 N-000009 )
-  (   40 N-000052 )
-  (   41 +3.3V )
-  (   42 GND )
-  (   43 ? )
-  (   44 ? )
-  (   45 +3.3V )
-  (   46 ? )
-  (   47 ? )
-  (   48 ? )
+ ( /4F79727B MSOP_8 U2 TMP275
+  ( 1 N-000029 )
+  ( 2 N-000056 )
+  ( 3 ? )
+  ( 4 GND )
+  ( 5 +3.3V )
+  ( 6 +3.3V )
+  ( 7 +3.3V )
+  ( 8 +3.3V )
+ )
+ ( /4F33C4F3 CRYSTAL-ABM3B X1 26MHz
+  ( 1 N-000050 )
+  ( 2 N-000049 )
  )
 )
 *
 { Allowed footprints by component:
-$component R2
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component R3
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component C21
+$component C1
  SM*
  C?
  C1-1
 $endlist
-$component C20
+$component C2
  SM*
  C?
  C1-1
 $endlist
-$component C19
+$component C3
  SM*
  C?
  C1-1
 $endlist
-$component C18
+$component C4
  SM*
  C?
  C1-1
 $endlist
-$component C17
+$component C5
  SM*
  C?
  C1-1
 $endlist
-$component C16
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
  SM*
  C?
  C1-1
@@ -253,7 +260,17 @@ $component C10
  C?
  C1-1
 $endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
 $component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
  SM*
  C?
  C1-1
@@ -268,17 +285,37 @@ $component C15
  C?
  C1-1
 $endlist
-$component C13
+$component C16
  SM*
  C?
  C1-1
 $endlist
-$component C11
+$component C17
  SM*
  C?
  C1-1
 $endlist
-$component C8
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component C20
+ SM*
+ C?
+ C1-1
+$endlist
+$component C21
+ SM*
+ C?
+ C1-1
+$endlist
+$component C22
  SM*
  C?
  C1-1
@@ -289,179 +326,17 @@ $component R1
  SM0805
  R?-*
 $endlist
-$component C4
- SM*
- C?
- C1-1
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
 $endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component C5
- SM*
- C?
- C1-1
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component C6
- SM*
- C?
- C1-1
-$endlist
-$component C9
- SM*
- C?
- C1-1
-$endlist
-$component C7
- SM*
- C?
- C1-1
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
 $endlist
 $endfootprintlist
 }
-{ Pin List by Nets
-Net 1 "" ""
- U1 30
- L2 1
- C16 2
-Net 2 "" ""
- C12 2
- U1 31
- C14 2
-Net 3 "" ""
- L1 2
- C17 1
-Net 4 "" ""
- C19 1
- L4 1
- L3 2
-Net 5 "" ""
- U1 28
- C15 1
- C13 1
-Net 9 "" ""
- U1 39
- CN1 6
-Net 11 "" ""
- CN1 3
- U1 5
-Net 12 "" ""
- R3 1
- CN2 1
- U2 2
- U1 11
-Net 14 "" ""
- CN4 1
- C21 1
-Net 15 "" ""
- CN2 9
- U1 13
-Net 19 "" ""
- U1 4
- CN2 4
-Net 20 "" ""
- CN2 5
- U1 24
-Net 23 "" ""
- U1 33
- R1 1
-Net 25 "GND" "GND"
- C9 2
- C7 2
- C2 2
- C6 2
- U2 4
- C13 2
- U1 42
- C20 2
- CN1 10
- C14 1
- C15 2
- C1 2
- C8 1
- R1 2
- C4 1
- C11 2
- C19 2
- C17 2
- C16 1
- C10 1
- C12 1
- C5 1
- C3 1
-Net 26 "" ""
- U1 32
- C10 2
-Net 30 "" ""
- U1 9
- CN2 3
-Net 38 "" ""
- C11 1
- U1 27
-Net 45 "" ""
- C2 1
- U1 7
-Net 46 "" ""
- U1 6
- CN1 2
-Net 50 "" ""
- X1 2
- U1 26
- C9 1
-Net 51 "" ""
- C7 1
- X1 1
- U1 25
-Net 52 "" ""
- U1 40
- CN1 5
-Net 54 "" ""
- U1 10
- R2 1
- U2 1
- CN2 2
-Net 55 "+3.3V" "+3.3V"
- C5 2
- U2 5
- C1 1
- C4 2
- C8 2
- U1 41
- U2 6
- U1 22
- U1 34
- C3 2
- U1 8
- U1 45
- CN1 1
- R2 2
- U2 8
- C6 1
- U2 7
- R3 2
-Net 56 "" ""
- C20 1
- L4 2
- C21 2
-Net 57 "" ""
- L2 2
- C18 1
- L3 1
-Net 58 "" ""
- C18 2
- U1 29
- L1 1
-}
-#End

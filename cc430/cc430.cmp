@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Mon 02 Apr 2012 13:33:49 EEST
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Tue 03 Apr 2012 10:38:15 EEST
 
 BeginCmp
 TimeStamp = /4F34D810;
@@ -144,6 +144,13 @@ BeginCmp
 TimeStamp = /4F3E136D;
 Reference = C21;
 ValeurCmp = 220pF;
+IdModule  = SM-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F7AA82B;
+Reference = C22;
+ValeurCmp = 100nF;
 IdModule  = SM-0402;
 EndCmp
 
