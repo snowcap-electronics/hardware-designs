@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 03 Apr 2012 11:48:37 EEST
+EESchema Schematic File Version 2  date Tue 03 Apr 2012 13:25:57 EEST
 LIBS:snowcap
 LIBS:power
 LIBS:device
@@ -824,7 +824,7 @@ L C C9
 U 1 1 4F33C51B
 P 6300 5050
 F 0 "C9" H 6350 5150 50  0000 L CNN
-F 1 "27pF" H 6350 4950 50  0000 L CNN
+F 1 "30pF" H 6350 4950 50  0000 L CNN
 	1    6300 5050
 	1    0    0    -1  
 $EndComp
@@ -833,7 +833,7 @@ L C C7
 U 1 1 4F33C511
 P 5700 5050
 F 0 "C7" H 5750 5150 50  0000 L CNN
-F 1 "27pF" H 5750 4950 50  0000 L CNN
+F 1 "30pF" H 5750 4950 50  0000 L CNN
 	1    5700 5050
 	-1   0    0    -1  
 $EndComp
