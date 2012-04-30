@@ -106,3 +106,4 @@ LibName8=display
 LibName9=valves
 LibName10=led
 LibName11=dip_sockets
+LibName12=../kicad/logo
