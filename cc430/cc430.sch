@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 11 May 2012 12:36:02 EEST
+EESchema Schematic File Version 2  date Wed 16 May 2012 11:48:37 EEST
 LIBS:snowcap
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "11 may 2012"
+Date "16 may 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,6 +45,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	3750 2550 1550 2550
+Wire Wire Line
+	3750 2650 3750 2550
 Wire Wire Line
 	1350 4950 1750 4950
 Wire Wire Line
@@ -102,9 +106,9 @@ Wire Wire Line
 Wire Wire Line
 	4650 2650 4650 2350
 Wire Wire Line
-	1700 2550 1700 2450
+	1750 2650 1750 2450
 Wire Wire Line
-	1700 2450 1550 2450
+	1750 2450 1550 2450
 Wire Wire Line
 	1350 5650 2850 5650
 Wire Wire Line
@@ -123,7 +127,7 @@ Wire Wire Line
 	10550 4050 10700 4050
 Connection ~ 9100 4050
 Wire Wire Line
-	8950 4050 9250 4050
+	9250 4050 8950 4050
 Wire Wire Line
 	9100 4200 9100 4050
 Wire Wire Line
@@ -151,7 +155,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 3850 6950 3950
 Wire Wire Line
-	6950 4950 6950 4750
+	6950 4750 6950 4950
 Wire Wire Line
 	6600 4750 6600 4850
 Connection ~ 6450 3150
@@ -190,10 +194,10 @@ Wire Wire Line
 	2550 4150 2950 4150
 Connection ~ 4450 1000
 Wire Wire Line
-	4450 1300 4400 1300
+	4400 1300 4450 1300
 Connection ~ 4450 1300
 Wire Wire Line
-	4050 1700 4050 2650
+	4050 2650 4050 1700
 Wire Wire Line
 	3550 1950 3600 1950
 Connection ~ 4050 1950
@@ -219,13 +223,13 @@ Connection ~ 6300 4800
 Wire Wire Line
 	4000 1950 4050 1950
 Wire Wire Line
-	4450 900  4450 2650
+	4450 2650 4450 900 
 Wire Wire Line
 	2950 4050 2650 4050
 Wire Wire Line
 	4750 6550 4750 6650
 Wire Wire Line
-	4750 6150 4750 6000
+	4750 6000 4750 6150
 Connection ~ 4750 6050
 Wire Wire Line
 	2100 4650 2100 4750
@@ -244,7 +248,7 @@ Wire Wire Line
 	7250 4850 6600 4850
 Connection ~ 6950 4850
 Wire Wire Line
-	5650 3850 6600 3850
+	6600 3850 5650 3850
 Wire Wire Line
 	7250 3850 7250 3950
 Wire Wire Line
@@ -278,7 +282,7 @@ Wire Wire Line
 Wire Wire Line
 	10000 4200 10000 4050
 Wire Wire Line
-	9850 4050 10150 4050
+	10150 4050 9850 4050
 Connection ~ 10000 4050
 Wire Wire Line
 	2950 3850 2750 3850
@@ -332,9 +336,9 @@ Connection ~ 1600 6250
 Wire Wire Line
 	1750 6250 1600 6250
 Wire Wire Line
-	4300 6650 3950 6650
+	3950 6650 4300 6650
 Wire Wire Line
-	6600 4350 5650 4350
+	5650 4350 6600 4350
 Wire Wire Line
 	5650 4250 7250 4250
 Wire Wire Line
@@ -356,6 +360,10 @@ Wire Wire Line
 	1600 4850 1350 4850
 Wire Wire Line
 	1700 5050 1350 5050
+Wire Wire Line
+	2950 4550 2950 5150
+Wire Wire Line
+	2950 5150 1350 5150
 $Comp
 L C C22
 U 1 1 4F7AA82B
@@ -431,10 +439,10 @@ $EndComp
 $Comp
 L GND #PWR05
 U 1 1 4F3E3B06
-P 1700 2550
-F 0 "#PWR05" H 1700 2550 30  0001 C CNN
-F 1 "GND" H 1700 2480 30  0001 C CNN
-	1    1700 2550
+P 1750 2650
+F 0 "#PWR05" H 1750 2650 30  0001 C CNN
+F 1 "GND" H 1750 2580 30  0001 C CNN
+	1    1750 2650
 	1    0    0    -1  
 $EndComp
 $Comp
