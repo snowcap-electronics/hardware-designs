@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 16 May 2012 11:48:37 EEST
+EESchema Schematic File Version 2  date Tue 24 Jul 2012 12:54:53 PM EEST
 LIBS:snowcap
 LIBS:power
 LIBS:device
@@ -30,14 +30,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:cc430-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "16 may 2012"
+Date "24 jul 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -423,7 +422,7 @@ L R R2
 U 1 1 4F796551
 P 2000 6400
 F 0 "R2" V 2080 6400 50  0000 C CNN
-F 1 "R" V 2000 6400 50  0000 C CNN
+F 1 "4.7k" V 2000 6400 50  0000 C CNN
 	1    2000 6400
 	0    1    1    0   
 $EndComp
@@ -432,7 +431,7 @@ L R R3
 U 1 1 4F796541
 P 2000 6250
 F 0 "R3" V 2080 6250 50  0000 C CNN
-F 1 "R" V 2000 6250 50  0000 C CNN
+F 1 "4.7k" V 2000 6250 50  0000 C CNN
 	1    2000 6250
 	0    1    1    0   
 $EndComp
@@ -702,7 +701,7 @@ L R R1
 U 1 1 4F38F6D4
 P 6200 3500
 F 0 "R1" V 6280 3500 50  0000 C CNN
-F 1 "56K" V 6200 3500 50  0000 C CNN
+F 1 "56k" V 6200 3500 50  0000 C CNN
 	1    6200 3500
 	-1   0    0    1   
 $EndComp
