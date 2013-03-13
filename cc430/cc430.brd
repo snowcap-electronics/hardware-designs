@@ -3547,7 +3547,7 @@ Po -216 0
 .LocalClearance 70
 $EndPAD
 $SHAPE3D
-Na "../kicad/3d/c_0402.wrl"
+Na "../kicad/3d/r_0402.wrl"
 Sc 1.000000 1.000000 1.000000
 Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
