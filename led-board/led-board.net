@@ -1,0 +1,106 @@
+# EESchema Netlist Version 1.1 created  su  7. heinäkuuta 2013 14.02.45
+(
+ ( /51D846D5 PIN_ARRAY_3X1 K1 CONN_3
+  ( 1 N-000015 )
+  ( 2 N-000011 )
+  ( 3 N-000005 )
+ )
+ ( /51D844F0 PIN_ARRAY-6X1 P1 CONN_6
+  ( 1 N-000021 )
+  ( 2 N-000019 )
+  ( 3 N-000020 )
+  ( 4 N-000018 )
+  ( 5 N-000017 )
+  ( 6 N-000016 )
+ )
+ ( /51D844B4 pin_array_4x2 P2 CONN_4X2
+  ( 1 N-000011 )
+  ( 2 N-000010 )
+  ( 3 N-000011 )
+  ( 4 N-000001 )
+  ( 5 N-000011 )
+  ( 6 N-000009 )
+  ( 7 N-000011 )
+  ( 8 N-000006 )
+ )
+ ( /51D844EC PIN_ARRAY-6X1 P3 CONN_6
+  ( 1 N-000015 )
+  ( 2 N-000005 )
+  ( 3 N-000014 )
+  ( 4 N-000008 )
+  ( 5 N-000013 )
+  ( 6 N-000012 )
+ )
+ ( /51D94A30 PIN_ARRAY-6X1 P4 CONN_6
+  ( 1 N-000021 )
+  ( 2 N-000019 )
+  ( 3 N-000020 )
+  ( 4 N-000018 )
+  ( 5 N-000017 )
+  ( 6 N-000016 )
+ )
+ ( /51D91D3C SOT23EBC Q1 NPN
+  ( 1 N-000005 )
+  ( 2 N-000003 )
+  ( 3 N-000010 )
+ )
+ ( /51D91D14 SOT23EBC Q2 NPN
+  ( 1 N-000005 )
+  ( 2 N-000002 )
+  ( 3 N-000001 )
+ )
+ ( /51D91D6E SOT23EBC Q3 NPN
+  ( 1 N-000005 )
+  ( 2 N-000004 )
+  ( 3 N-000009 )
+ )
+ ( /51D91D7B SOT23EBC Q4 NPN
+  ( 1 N-000005 )
+  ( 2 N-000007 )
+  ( 3 N-000006 )
+ )
+ ( /51D84896 SM1206 R1 R
+  ( 1 N-000014 )
+  ( 2 N-000003 )
+ )
+ ( /51D8487E SM1206 R2 R
+  ( 1 N-000008 )
+  ( 2 N-000002 )
+ )
+ ( /51D84866 SM1206 R3 R
+  ( 1 N-000013 )
+  ( 2 N-000004 )
+ )
+ ( /51D848AD SM1206 R4 R
+  ( 1 N-000012 )
+  ( 2 N-000007 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$endfootprintlist
+}
