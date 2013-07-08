@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date ma  8. heinäkuuta 2013 10.41.01
+PCBNEW-BOARD Version 1 date ma  8. heinäkuuta 2013 18.10.47
 
 # Created by Pcbnew(2011-05-25)-stable
 
@@ -8,10 +8,10 @@ LayerCount 2
 Ly 1FFF8001
 EnabledLayers 1FFF8001
 Links 28
-NoConn 1
+NoConn 0
 Di 9310 8779 28690 15221
-Ndraw 4
-Ntrack 66
+Ndraw 5
+Ntrack 67
 Nzone 0
 BoardThickness 630
 Nmodule 13
@@ -35,7 +35,7 @@ InternalUnit 0.000100 INCH
 Layers 2
 Layer[0] Back signal
 Layer[15] Front signal
-TrackWidth 320
+TrackWidth 120
 TrackWidthList 80
 TrackWidthList 320
 TrackClearence 100
@@ -61,7 +61,7 @@ PadSize 600 600
 PadDrill 320
 Pad2MaskClearance 100
 AuxiliaryAxisOrg 0 0
-PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+PcbPlotParams (pcbplotparams (layerselection 16547841) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory /tmp/led-board))
 $EndSETUP
 
 $EQUIPOT
@@ -822,6 +822,11 @@ Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  PIN_ARRAY-6X1
+$TEXTPCB
+Te "LED BOARD v1"
+Po 16450 9850 600 800 120 0
+De 21 1 0 Normal
+$EndTEXTPCB
 $DRAWSEGMENT
 Po 0 9900 15100 28100 15100 150
 De 28 0 900 0 0
@@ -933,16 +938,18 @@ Po 0 15500 11500 17100 11500 320 -1
 De 15 0 10 0 400000
 Po 0 17100 11500 17600 11000 320 -1
 De 15 0 10 0 800000
-Po 0 22500 10250 22500 10000 320 -1
+Po 0 14500 11500 14500 10500 320 -1
 De 15 0 11 0 400000
-Po 0 14500 10500 14500 12500 320 -1
-De 15 0 11 0 800000
-Po 0 15500 9500 14500 10500 320 -1
+Po 0 22500 10000 22000 9500 320 -1
 De 15 0 11 0 0
 Po 0 22000 9500 15500 9500 320 -1
 De 15 0 11 0 0
-Po 0 22500 10000 22000 9500 320 -1
+Po 0 15500 9500 14500 10500 320 -1
 De 15 0 11 0 0
+Po 0 22500 10000 22500 10250 320 -1
+De 15 0 11 0 800000
+Po 0 14500 11500 14500 12500 320 -1
+De 15 0 11 0 C00000
 Po 0 14500 12500 14500 13500 320 -1
 De 15 0 11 0 C00000
 Po 0 14500 13500 14500 14500 320 -1

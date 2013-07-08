@@ -1,4 +1,4 @@
-update=la  6. heinäkuuta 2013 21.33.04
+update=ma  8. heinäkuuta 2013 15.03.06
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -11,9 +11,11 @@ LibDir=
 NetType=0
 [cvpcb/libraries]
 EquName1=devcms
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../kicad
 NetFmt=1
 HPGLSpd=20
 HPGLDm=15
@@ -41,8 +43,6 @@ offY_E=0
 RptD_X=0
 RptD_Y=100
 RptLab=1
-SimCmd=
-UseNetN=0
 LabSize=60
 [eeschema/libraries]
 LibName1=power
@@ -75,8 +75,7 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-[general]
-version=1
+LibName31=snowcap
 [pcbnew]
 version=1
 PadDrlX=320
@@ -95,7 +94,7 @@ TxtLar=120
 MSegLar=150
 LastNetListRead=led-board.net
 [pcbnew/libraries]
-LibDir=
+LibDir=../kicad
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -106,3 +105,5 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
+LibName11=snowcap
+LibName12=logo
