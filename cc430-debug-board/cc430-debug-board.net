@@ -1,0 +1,267 @@
+# EESchema Netlist Version 1.1 created  ke 10. heinäkuuta 2013 17.05.18
+(
+ ( /51DD64E5 $noname  D1 LED {Lib=LED}
+  (    1 N-000050 )
+  (    2 N-000051 )
+ )
+ ( /51DD64DF $noname  D2 LED {Lib=LED}
+  (    1 N-000012 )
+  (    2 N-000049 )
+ )
+ ( /51DD64CB $noname  R1 500R {Lib=R}
+  (    1 +5V )
+  (    2 N-000051 )
+ )
+ ( /51DD64C5 $noname  R2 500R {Lib=R}
+  (    1 +5V )
+  (    2 N-000049 )
+ )
+ ( /51DD18F8 $noname  J1 USB_MINI {Lib=USB_MINI}
+  (    1 N-000036 )
+  (    2 N-000016 )
+  (    3 N-000002 )
+  (    4 ? )
+  (    5 GND )
+ )
+ ( /51DD18E3 $noname  U1 FT232R {Lib=FT232R}
+  (    1 N-000035 )
+  (    2 ? )
+  (    3 ? )
+  (    4 +3.3V )
+  (    5 N-000034 )
+  (    6 ? )
+  (    7 GND )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 N-000002 )
+  (   16 N-000016 )
+  (   17 +3.3V )
+  (   18 GND )
+  (   19 ? )
+  (   20 +5V )
+  (   21 GND )
+  (   22 N-000012 )
+  (   23 N-000050 )
+  (   24 ? )
+  (   25 GND )
+  (   26 GND )
+  (   27 ? )
+  (   28 ? )
+ )
+ ( /51DD1752 $noname  RX_SEL1 CN_3 {Lib=CN_3}
+  (    1 /RADIO_RX )
+  (    2 N-000034 )
+  (    3 /RPI_RX )
+ )
+ ( /51DD174C $noname  TX_SEL1 CN_3 {Lib=CN_3}
+  (    1 /RADIO_TX )
+  (    2 N-000035 )
+  (    3 /RPI_TX )
+ )
+ ( /51DD1743 $noname  5V1 CN_3 {Lib=CN_3}
+  (    1 N-000022 )
+  (    2 +5V )
+  (    3 N-000036 )
+ )
+ ( /51DD1696 $noname  CN2 CN_10 {Lib=CN_10}
+  (    1 /RADIO_B0_SCL )
+  (    2 /RADIO_B0_SDA )
+  (    3 /RADIO_A0_SS )
+  (    4 /RADIO_A0_SCLK )
+  (    5 /RADIO_ACLK )
+  (    6 /RADIO_RFGDO2 )
+  (    7 /RADIO_RFGDO0 )
+  (    8 /RADIO_A0 )
+  (    9 /RADIO_A1 )
+  (   10 /RADIO_A2 )
+ )
+ ( /51DD1688 $noname  CN1 CN_10 {Lib=CN_10}
+  (    1 +3.3V )
+  (    2 /RADIO_TX )
+  (    3 /RADIO_RX )
+  (    4 ? )
+  (    5 /RADIO_NRST )
+  (    6 /RADIO_TEST )
+  (    7 ? )
+  (    8 ? )
+  (    9 /RADIO_A3 )
+  (   10 GND )
+ )
+ ( /51DD164E $noname  RPI1 CONN_13X2 {Lib=CONN_13X2}
+  (    1 ? )
+  (    2 N-000022 )
+  (    3 /RADIO_B0_SDA )
+  (    4 N-000022 )
+  (    5 /RADIO_B0_SCL )
+  (    6 GND )
+  (    7 /RADIO_RFGDO0 )
+  (    8 /RPI_TX )
+  (    9 GND )
+  (   10 /RPI_RX )
+  (   11 /RADIO_A0 )
+  (   12 /RADIO_A3 )
+  (   13 /RADIO_A1 )
+  (   14 GND )
+  (   15 /RADIO_A2 )
+  (   16 /RADIO_NRST )
+  (   17 ? )
+  (   18 /RADIO_TEST )
+  (   19 ? )
+  (   20 GND )
+  (   21 ? )
+  (   22 /RADIO_ACLK )
+  (   23 /RADIO_A0_SCLK )
+  (   24 /RADIO_A0_SS )
+  (   25 GND )
+  (   26 /RADIO_RFGDO2 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component J1
+ USB
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 2 "" ""
+ J1 3
+ U1 15
+Net 6 "+3.3V" "+3.3V"
+ U1 4
+ CN1 1
+ U1 17
+Net 12 "" ""
+ D2 1
+ U1 22
+Net 16 "" ""
+ U1 16
+ J1 2
+Net 17 "GND" "GND"
+ RPI1 25
+ U1 18
+ U1 26
+ U1 25
+ U1 21
+ U1 7
+ J1 5
+ CN1 10
+ RPI1 20
+ RPI1 9
+ RPI1 14
+ RPI1 6
+Net 21 "/RADIO_A3" "RADIO_A3"
+ RPI1 12
+ CN1 9
+Net 22 "" ""
+ RPI1 4
+ RPI1 2
+ 5V1 1
+Net 23 "/RPI_TX" "RPI_TX"
+ TX_SEL1 3
+ RPI1 8
+Net 24 "/RPI_RX" "RPI_RX"
+ RPI1 10
+ RX_SEL1 3
+Net 27 "/RADIO_A0_SCLK" "RADIO_A0_SCLK"
+ CN2 4
+ RPI1 23
+Net 28 "/RADIO_RFGDO2" "RADIO_RFGDO2"
+ CN2 6
+ RPI1 26
+Net 30 "/RADIO_B0_SDA" "RADIO_B0_SDA"
+ RPI1 3
+ CN2 2
+Net 34 "" ""
+ RX_SEL1 2
+ U1 5
+Net 35 "" ""
+ TX_SEL1 2
+ U1 1
+Net 36 "" ""
+ J1 1
+ 5V1 3
+Net 37 "/RADIO_B0_SCL" "RADIO_B0_SCL"
+ CN2 1
+ RPI1 5
+Net 38 "/RADIO_A0_SS" "RADIO_A0_SS"
+ RPI1 24
+ CN2 3
+Net 39 "/RADIO_ACLK" "RADIO_ACLK"
+ RPI1 22
+ CN2 5
+Net 40 "/RADIO_RFGDO0" "RADIO_RFGDO0"
+ RPI1 7
+ CN2 7
+Net 41 "/RADIO_A0" "RADIO_A0"
+ RPI1 11
+ CN2 8
+Net 42 "/RADIO_A1" "RADIO_A1"
+ RPI1 13
+ CN2 9
+Net 43 "/RADIO_A2" "RADIO_A2"
+ CN2 10
+ RPI1 15
+Net 44 "/RADIO_TX" "RADIO_TX"
+ CN1 2
+ TX_SEL1 1
+Net 45 "/RADIO_RX" "RADIO_RX"
+ CN1 3
+ RX_SEL1 1
+Net 47 "/RADIO_NRST" "RADIO_NRST"
+ RPI1 16
+ CN1 5
+Net 48 "/RADIO_TEST" "RADIO_TEST"
+ CN1 6
+ RPI1 18
+Net 49 "" ""
+ R2 2
+ D2 2
+Net 50 "" ""
+ U1 23
+ D1 1
+Net 51 "" ""
+ D1 2
+ R1 2
+Net 52 "+5V" "+5V"
+ 5V1 2
+ U1 20
+ R2 1
+ R1 1
+}
+#End

@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = ke 10. heinäkuuta 2013 15.56.53
+
+BeginCmp
+TimeStamp = /51DD1743;
+Reference = 5V1;
+ValeurCmp = CN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /51DD1688;
+Reference = CN1;
+ValeurCmp = CN_10;
+IdModule  = CONN-10-2MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51DD1696;
+Reference = CN2;
+ValeurCmp = CN_10;
+IdModule  = CONN-10-2MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51DD18F8;
+Reference = J1;
+ValeurCmp = USB_MINI;
+IdModule  = USB-MINI-B;
+EndCmp
+
+BeginCmp
+TimeStamp = /51DD164E;
+Reference = RPI1;
+ValeurCmp = CONN_13X2;
+IdModule  = pin_array_13x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /51DD1752;
+Reference = RX_SEL1;
+ValeurCmp = CN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /51DD174C;
+Reference = TX_SEL1;
+ValeurCmp = CN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /51DD18E3;
+Reference = U1;
+ValeurCmp = FT232R;
+IdModule  = SSOP28;
+EndCmp
+
+EndListe
