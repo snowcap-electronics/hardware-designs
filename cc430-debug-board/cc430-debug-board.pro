@@ -1,5 +1,5 @@
-update=ke 10. heinäkuuta 2013 15.54.55
-last_client=cvpcb
+update=ke 10. heinäkuuta 2013 17.53.29
+last_client=pcbnew
 [eeschema]
 version=1
 LibDir=../kicad
@@ -69,7 +69,24 @@ NetIExt=.net
 [cvpcb/libraries]
 EquName1=devcms
 [pcbnew]
+version=1
+PadDrlX=320
+PadDimH=600
+PadDimV=600
+BoardThickness=630
+TxtPcbV=800
+TxtPcbH=600
+TxtModV=600
+TxtModH=600
+TxtModW=120
+VEgarde=100
+DrawLar=150
+EdgeLar=150
+TxtLar=120
+MSegLar=150
+LastNetListRead=cc430-debug-board.net
 [pcbnew/libraries]
+LibDir=../kicad
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -81,4 +98,3 @@ LibName8=valves
 LibName9=led
 LibName10=dip_sockets
 LibName11=snowcap
-LibDir=../kicad

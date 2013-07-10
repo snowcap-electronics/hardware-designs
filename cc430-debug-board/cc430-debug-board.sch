@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date ke 10. heinäkuuta 2013 17.11.21
+EESchema Schematic File Version 2  date ke 10. heinäkuuta 2013 17.55.07
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:snowcap
+LIBS:cc430-debug-board-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
@@ -44,6 +45,24 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L LED D?
+U 1 1 51DD75A0
+P 7100 1250
+F 0 "D?" H 7100 1350 50  0000 C CNN
+F 1 "LED" H 7100 1150 50  0000 C CNN
+	1    7100 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 51DD758F
+P 7100 900
+F 0 "D?" H 7100 1000 50  0000 C CNN
+F 1 "LED" H 7100 800 50  0000 C CNN
+	1    7100 900 
+	1    0    0    -1  
+$EndComp
 Text Label 5650 4450 3    60   ~ 0
 RADIO_A0_SCLK
 Text Label 7550 3100 2    60   ~ 0
@@ -263,24 +282,6 @@ P 7950 900
 F 0 "#PWR11" H 7950 990 20  0001 C CNN
 F 1 "+5V" H 7950 990 30  0000 C CNN
 	1    7950 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D1
-U 1 1 51DD64E5
-P 7100 900
-F 0 "D1" H 7100 1000 50  0000 C CNN
-F 1 "LED" H 7100 800 50  0000 C CNN
-	1    7100 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D2
-U 1 1 51DD64DF
-P 7100 1250
-F 0 "D2" H 7100 1350 50  0000 C CNN
-F 1 "LED" H 7100 1150 50  0000 C CNN
-	1    7100 1250
 	1    0    0    -1  
 $EndComp
 $Comp
