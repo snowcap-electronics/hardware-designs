@@ -1,0 +1,547 @@
+PCBNEW-BOARD Version 1 date Fri 27 Sep 2013 06:24:25 PM EEST
+
+# Created by Pcbnew(2012-apr-16-27)-stable
+
+$GENERAL
+encoding utf-8
+LayerCount 2
+Ly 1FFF8001
+EnabledLayers 1FFF8001
+Links 24
+NoConn 24
+Di 11699 6560 16151 18740
+Ndraw 0
+Ntrack 0
+Nzone 0
+BoardThickness 630
+Nmodule 5
+Nnets 12
+$EndGENERAL
+
+$SHEETDESCR
+Sheet A4 11700 8267
+Title ""
+Date "27 sep 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndSHEETDESCR
+
+$SETUP
+InternalUnit 0.000100 INCH
+Layers 2
+Layer[0] Back signal
+Layer[15] Front signal
+TrackWidth 80
+TrackClearence 100
+ZoneClearence 200
+TrackMinWidth 80
+DrawSegmWidth 150
+EdgeSegmWidth 150
+ViaSize 350
+ViaDrill 250
+ViaMinSize 350
+ViaMinDrill 200
+MicroViaSize 200
+MicroViaDrill 50
+MicroViasAllowed 0
+MicroViaMinSize 200
+MicroViaMinDrill 50
+TextPcbWidth 120
+TextPcbSize 600 800
+EdgeModWidth 150
+TextModSize 600 600
+TextModWidth 120
+PadSize 600 600
+PadDrill 320
+Pad2MaskClearance 100
+AuxiliaryAxisOrg 0 0
+PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+$EndSETUP
+
+$EQUIPOT
+Na 0 ""
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 1 "+3.3V"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 2 "/DRDY_G"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 3 "/INT1_XM"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 4 "/INT2_XM"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 5 "/INT_G"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 6 "/SCL"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 7 "/SDA"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 8 "GND"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 9 "N-000007"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 10 "N-000010"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 11 "N-000011"
+St ~
+$EndEQUIPOT
+$NCLASS
+Name "Default"
+Desc "This is the default net class."
+Clearance 100
+TrackWidth 80
+ViaDia 350
+ViaDrill 250
+uViaDia 200
+uViaDrill 50
+AddNet ""
+AddNet "+3.3V"
+AddNet "/DRDY_G"
+AddNet "/INT1_XM"
+AddNet "/INT2_XM"
+AddNet "/INT_G"
+AddNet "/SCL"
+AddNet "/SDA"
+AddNet "GND"
+AddNet "N-000007"
+AddNet "N-000010"
+AddNet "N-000011"
+$EndNCLASS
+$MODULE SM0402
+Po 12850 15050 0 15 4E43A43D 5245A293 ~~
+Li SM0402
+Sc 5245A293
+AR /52459F13
+Op 0 0 0
+At SMD 
+T0 0 300 120 120 0 30 N V 21 N "C2"
+T1 0 -250 120 120 0 30 N I 21 N "C"
+DS -100 -150 -300 -150 50 21
+DS -300 -150 -300 150 50 21
+DS -300 150 -100 150 50 21
+DS 100 -150 300 -150 50 21
+DS 300 -150 300 150 50 21
+DS 300 150 100 150 50 21
+$PAD
+Sh "1" R 157 236 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 11 "N-000011"
+Po -177 0
+$EndPAD
+$PAD
+Sh "2" R 157 236 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 10 "N-000010"
+Po 177 0
+$EndPAD
+$SHAPE3D
+Na "smd\\chip_cms.wrl"
+Sc 0.050000 0.050000 0.050000
+Of 0.000000 0.000000 0.002000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0402
+$MODULE SM0402
+Po 14300 15150 0 15 4E43A43D 5245A295 ~~
+Li SM0402
+Sc 5245A295
+AR /52459D91
+Op 0 0 0
+At SMD 
+T0 0 300 120 120 0 30 N V 21 N "C1"
+T1 0 -250 120 120 0 30 N I 21 N "C"
+DS -100 -150 -300 -150 50 21
+DS -300 -150 -300 150 50 21
+DS -300 150 -100 150 50 21
+DS 100 -150 300 -150 50 21
+DS 300 -150 300 150 50 21
+DS 300 150 100 150 50 21
+$PAD
+Sh "1" R 157 236 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 8 "GND"
+Po -177 0
+$EndPAD
+$PAD
+Sh "2" R 157 236 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 9 "N-000007"
+Po 177 0
+$EndPAD
+$SHAPE3D
+Na "smd\\chip_cms.wrl"
+Sc 0.050000 0.050000 0.050000
+Of 0.000000 0.000000 0.002000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0402
+$MODULE QFN24
+Po 13900 12550 0 15 48A948E6 5245A296 ~~
+Li QFN24
+Sc 5245A296
+AR /52447C32
+Op 0 0 0
+T0 0 -1500 394 394 0 99 N V 21 N "U1"
+T1 0 1500 394 394 0 99 N V 21 N "LSM9DS0"
+DS -784 -980 980 -980 59 21
+DS -980 -784 -980 980 59 21
+DS -980 -784 -784 -980 59 21
+DS -784 -686 -784 -784 79 21
+DS -784 -784 -686 -784 79 21
+DS -686 784 -784 784 79 21
+DS -784 784 -784 686 79 21
+DS 784 686 784 784 79 21
+DS 784 784 686 784 79 21
+DS 686 -784 784 -784 79 21
+DS 784 -784 784 -686 79 21
+DS 980 980 -980 980 59 21
+DS 980 -980 980 980 59 21
+$PAD
+Sh "" R 984 984 0 0 2700
+Dr 0 0 0
+At SMD N 0088FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" O 315 98 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -787 -492
+$EndPAD
+$PAD
+Sh "2" O 315 98 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 8 "GND"
+Po -787 -295
+$EndPAD
+$PAD
+Sh "3" O 315 98 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 8 "GND"
+Po -787 -98
+$EndPAD
+$PAD
+Sh "4" O 315 98 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 8 "GND"
+Po -787 98
+$EndPAD
+$PAD
+Sh "5" O 315 98 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 8 "GND"
+Po -787 295
+$EndPAD
+$PAD
+Sh "6" O 315 98 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 8 "GND"
+Po -787 492
+$EndPAD
+$PAD
+Sh "7" O 315 98 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 9 "N-000007"
+Po -492 787
+$EndPAD
+$PAD
+Sh "8" O 315 98 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 11 "N-000011"
+Po -295 787
+$EndPAD
+$PAD
+Sh "9" O 315 98 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 10 "N-000010"
+Po -98 787
+$EndPAD
+$PAD
+Sh "10" O 315 98 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+3.3V"
+Po 98 787
+$EndPAD
+$PAD
+Sh "11" O 315 98 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "/INT_G"
+Po 295 787
+$EndPAD
+$PAD
+Sh "12" O 315 98 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "/DRDY_G"
+Po 492 787
+$EndPAD
+$PAD
+Sh "13" O 315 98 0 0 1800
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "/INT1_XM"
+Po 787 492
+$EndPAD
+$PAD
+Sh "14" O 315 98 0 0 1800
+Dr 0 0 0
+At SMD N 00888000
+Ne 4 "/INT2_XM"
+Po 787 295
+$EndPAD
+$PAD
+Sh "15" O 315 98 0 0 1800
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+3.3V"
+Po 787 98
+$EndPAD
+$PAD
+Sh "16" O 315 98 0 0 1800
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+3.3V"
+Po 787 -98
+$EndPAD
+$PAD
+Sh "17" O 315 98 0 0 1800
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+3.3V"
+Po 787 -295
+$EndPAD
+$PAD
+Sh "18" O 315 98 0 0 1800
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+3.3V"
+Po 787 -492
+$EndPAD
+$PAD
+Sh "19" O 315 98 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+3.3V"
+Po 492 -787
+$EndPAD
+$PAD
+Sh "20" O 315 98 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+3.3V"
+Po 295 -787
+$EndPAD
+$PAD
+Sh "21" O 315 98 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 6 "/SCL"
+Po 98 -787
+$EndPAD
+$PAD
+Sh "22" O 315 98 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 8 "GND"
+Po -98 -787
+$EndPAD
+$PAD
+Sh "23" O 315 98 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 8 "GND"
+Po -295 -787
+$EndPAD
+$PAD
+Sh "24" O 315 98 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 7 "/SDA"
+Po -492 -787
+$EndPAD
+$PAD
+Sh "" C 315 315 0 0 2700
+Dr 315 0 0
+At HOLE N 00F0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "" C 315 315 0 0 2700
+Dr 315 0 0
+At HOLE N 00F0FFFF
+Ne 0 ""
+Po 300 -300
+$EndPAD
+$PAD
+Sh "" C 315 315 0 0 2700
+Dr 315 0 0
+At HOLE N 00F0FFFF
+Ne 0 ""
+Po -300 -300
+$EndPAD
+$PAD
+Sh "" C 315 315 0 0 2700
+Dr 315 0 0
+At HOLE N 00F0FFFF
+Ne 0 ""
+Po 300 300
+$EndPAD
+$PAD
+Sh "" C 315 315 0 0 2700
+Dr 315 0 0
+At HOLE N 00F0FFFF
+Ne 0 ""
+Po -300 300
+$EndPAD
+$SHAPE3D
+Na "smd/qfn24.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  QFN24
+$MODULE PIN_ARRAY_4x1
+Po 13950 7900 0 15 4C10F42E 5245A297 ~~
+Li PIN_ARRAY_4x1
+Cd Double rangee de contacts 2 x 5 pins
+Kw CONN
+Sc 5245A297
+AR /52459A1B
+Op 0 0 0
+T0 0 -1000 400 400 0 80 N V 21 N "CN2"
+T1 0 1000 400 400 0 80 N I 21 N "CN_4"
+DS 2000 500 -2000 500 100 21
+DS 2000 -500 -2000 -500 100 21
+DS -2000 -500 -2000 500 100 21
+DS 2000 500 2000 -500 100 21
+$PAD
+Sh "1" R 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 1 "+3.3V"
+Po -1500 0
+$EndPAD
+$PAD
+Sh "2" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 8 "GND"
+Po -500 0
+$EndPAD
+$PAD
+Sh "3" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 4 "/INT2_XM"
+Po 500 0
+$EndPAD
+$PAD
+Sh "4" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 3 "/INT1_XM"
+Po 1500 0
+$EndPAD
+$SHAPE3D
+Na "pin_array\\pins_array_4x1.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  PIN_ARRAY_4x1
+$MODULE PIN_ARRAY_4x1
+Po 13900 17400 1800 15 4C10F42E 5245A299 ~~
+Li PIN_ARRAY_4x1
+Cd Double rangee de contacts 2 x 5 pins
+Kw CONN
+Sc 5245A299
+AR /52459A0E
+Op 0 0 0
+T0 0 -1000 400 400 1800 80 N V 21 N "CN1"
+T1 0 1000 400 400 1800 80 N I 21 N "CN_4"
+DS 2000 500 -2000 500 100 21
+DS 2000 -500 -2000 -500 100 21
+DS -2000 -500 -2000 500 100 21
+DS 2000 500 2000 -500 100 21
+$PAD
+Sh "1" R 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 6 "/SCL"
+Po -1500 0
+$EndPAD
+$PAD
+Sh "2" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 7 "/SDA"
+Po -500 0
+$EndPAD
+$PAD
+Sh "3" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 2 "/DRDY_G"
+Po 500 0
+$EndPAD
+$PAD
+Sh "4" C 600 600 0 0 1800
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 5 "/INT_G"
+Po 1500 0
+$EndPAD
+$SHAPE3D
+Na "pin_array\\pins_array_4x1.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  PIN_ARRAY_4x1
+$TRACK
+$EndTRACK
+$ZONE
+$EndZONE
+$EndBOARD

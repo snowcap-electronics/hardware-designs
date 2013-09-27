@@ -1,0 +1,112 @@
+# EESchema Netlist Version 1.1 created  Fri 27 Sep 2013 06:21:43 PM EEST
+(
+ ( /52459F13 $noname  C2 C {Lib=C}
+  (    1 N-000011 )
+  (    2 N-000010 )
+ )
+ ( /52459D91 $noname  C1 C {Lib=C}
+  (    1 GND )
+  (    2 N-000007 )
+ )
+ ( /52459A1B $noname  CN2 CN_4 {Lib=CN_4}
+  (    1 +3.3V )
+  (    2 GND )
+  (    3 /INT2_XM )
+  (    4 /INT1_XM )
+ )
+ ( /52459A0E $noname  CN1 CN_4 {Lib=CN_4}
+  (    1 /SCL )
+  (    2 /SDA )
+  (    3 /DRDY_G )
+  (    4 /INT_G )
+ )
+ ( /52447C32 $noname  U1 LSM9DS0 {Lib=LSM9DS0}
+  (    1 ? )
+  (    2 GND )
+  (    3 GND )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
+  (    7 N-000007 )
+  (    8 N-000011 )
+  (    9 N-000010 )
+  (   10 +3.3V )
+  (   11 /INT_G )
+  (   12 /DRDY_G )
+  (   13 /INT1_XM )
+  (   14 /INT2_XM )
+  (   15 +3.3V )
+  (   16 +3.3V )
+  (   17 +3.3V )
+  (   18 +3.3V )
+  (   19 +3.3V )
+  (   20 +3.3V )
+  (   21 /SCL )
+  (   22 GND )
+  (   23 GND )
+  (   24 /SDA )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ U1 2
+ U1 3
+ U1 4
+ U1 5
+ U1 6
+ C1 1
+ U1 22
+ U1 23
+ CN2 2
+Net 2 "/SDA" "SDA"
+ U1 24
+ CN1 2
+Net 3 "/INT2_XM" "INT2_XM"
+ U1 14
+ CN2 3
+Net 4 "/INT1_XM" "INT1_XM"
+ U1 13
+ CN2 4
+Net 5 "/DRDY_G" "DRDY_G"
+ U1 12
+ CN1 3
+Net 6 "/SCL" "SCL"
+ CN1 1
+ U1 21
+Net 7 "" ""
+ C1 2
+ U1 7
+Net 9 "/INT_G" "INT_G"
+ U1 11
+ CN1 4
+Net 10 "" ""
+ C2 2
+ U1 9
+Net 11 "" ""
+ U1 8
+ C2 1
+Net 12 "+3.3V" "+3.3V"
+ U1 15
+ U1 19
+ U1 20
+ U1 10
+ U1 17
+ U1 16
+ U1 18
+ CN2 1
+}
+#End
