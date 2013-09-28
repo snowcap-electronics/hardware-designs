@@ -1,15 +1,17 @@
-PCBNEW-LibModule-V1  Mon 11 Mar 2013 07:55:01 AM EET
+PCBNEW-LibModule-V1  Sat 28 Sep 2013 12:23:33 PM EEST
 # encoding utf-8
 $INDEX
 48VQFN
 CONN-10-2MM
 CRYSTAL-ABM3B
 HLGA
+LGA24_LONGPADS
 RF_SMA
 SM-0402
 SSOP28
 TESTPOINT
 USB-MINI-B
+lsm9ds0
 $EndINDEX
 $MODULE USB-MINI-B
 Po 0 0 0 15 4EE88BD7 00000000 ~~
@@ -733,7 +735,7 @@ Kw SMD VQFN
 Sc 00000000
 AR /4F33C35C
 Op 0 0 0
-At SMD 
+At SMD
 T0 50 -600 300 300 0 50 N V 21 N "U1"
 T1 0 450 300 300 0 50 N V 21 N "CC430F513X"
 DC -894 -882 -994 -982 50 21
@@ -1129,4 +1131,511 @@ Ne 2 "GND"
 Po 0 0
 $EndPAD
 $EndMODULE  48VQFN
+$MODULE lsm9ds0
+Po 0 0 0 15 52469E6A 00000000 ~~
+Li lsm9ds0
+Sc 00000000
+AR
+Op 0 0 0
+T0 0 -1496 394 394 0 39 N V 21 N "lsm9ds0"
+T1 0 1575 394 394 0 39 N I 21 N "SMD"
+DS -787 -787 787 -787 39 21
+DS 787 -787 787 787 39 21
+DS 787 787 -787 787 39 21
+DS -787 787 -787 -787 39 21
+$PAD
+Sh "7" R 532 79 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -482 876
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "8" R 532 79 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -285 876
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "10" R 532 79 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 109 876
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "9" R 532 79 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -88 876
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "11" R 532 79 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 305 876
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "12" R 532 79 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 502 876
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "19" R 532 79 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 502 -876
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "20" R 532 79 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 305 -876
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "2" R 532 79 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -88 -876
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "21" R 532 79 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 109 -876
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "23" R 532 79 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -285 -876
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "24" R 532 79 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -482 -876
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "18" R 532 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 876 -489
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "17" R 532 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 876 -285
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "15" R 532 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 876 108
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "16" R 532 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 876 -89
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "14" R 532 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 876 304
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "13" R 532 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 876 501
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "6" R 532 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -876 501
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "5" R 532 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -876 304
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "3" R 532 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -876 -89
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "4" R 532 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -876 108
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "2" R 532 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -876 -285
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "1" R 532 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -876 -482
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$EndMODULE  lsm9ds0
+$MODULE LGA24_LONGPADS
+Po 0 0 0 15 52469FE1 00000000 ~~
+Li LGA24_LONGPADS
+Sc 00000000
+AR 
+Op 0 0 0
+T0 0 -1496 394 394 0 39 N V 21 N "LGA24"
+T1 0 1575 394 394 0 39 N I 21 N "SMD"
+DC -669 -669 -630 -669 39 21
+DS -787 -787 787 -787 39 21
+DS 787 -787 787 787 39 21
+DS 787 787 -787 787 39 21
+DS -787 787 -787 -787 39 21
+$PAD
+Sh "7" R 532 79 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -482 876
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "8" R 532 79 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -285 876
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "10" R 532 79 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 109 876
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "9" R 532 79 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -88 876
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "11" R 532 79 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 305 876
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "12" R 532 79 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 502 876
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "19" R 532 79 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 502 -876
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "20" R 532 79 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 305 -876
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "22" R 532 79 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -88 -876
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "21" R 532 79 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 109 -876
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "23" R 532 79 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -285 -876
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "24" R 532 79 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -482 -876
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "18" R 532 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 876 -489
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "17" R 532 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 876 -285
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "15" R 532 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 876 108
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "16" R 532 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 876 -89
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "14" R 532 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 876 304
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "13" R 532 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 876 501
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "6" R 532 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -876 501
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "5" R 532 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -876 304
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "3" R 532 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -876 -89
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "4" R 532 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -876 108
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "2" R 532 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -876 -285
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "1" R 532 79 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -876 -482
+.SolderMask 20
+.SolderPaste 20
+.LocalClearance 20
+$EndPAD
+$EndMODULE  LGA24_LONGPADS
 $EndLIBRARY
