@@ -1,16 +1,30 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Fri 27 Sep 2013 06:20:22 PM EEST
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Sat 28 Sep 2013 12:51:30 PM EEST
 
 BeginCmp
 TimeStamp = /52459D91;
 Reference = C1;
-ValeurCmp = C;
+ValeurCmp = 4.7uF;
 IdModule  = SM0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /52459F13;
 Reference = C2;
-ValeurCmp = C;
+ValeurCmp = 0.22uF;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /52468CFD;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /52468D09;
+Reference = C4;
+ValeurCmp = 10uF;
 IdModule  = SM0402;
 EndCmp
 
@@ -29,10 +43,24 @@ IdModule  = PIN_ARRAY_4x1;
 EndCmp
 
 BeginCmp
+TimeStamp = /5246A60D;
+Reference = R1;
+ValeurCmp = 4.7k;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5246A613;
+Reference = R2;
+ValeurCmp = 4.7k;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
 TimeStamp = /52447C32;
 Reference = U1;
 ValeurCmp = LSM9DS0;
-IdModule  = QFN24;
+IdModule  = LGA24_LONGPADS;
 EndCmp
 
 EndListe

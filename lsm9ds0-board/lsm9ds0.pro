@@ -1,4 +1,4 @@
-update=Fri 27 Sep 2013 06:21:28 PM EEST
+update=Sat 28 Sep 2013 11:17:42 AM EEST
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -89,7 +89,7 @@ TxtLar=120
 MSegLar=150
 LastNetListRead=
 [pcbnew/libraries]
-LibDir=
+LibDir=../kicad
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -101,3 +101,4 @@ LibName8=led
 LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
+LibName12=snowcap
