@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Sat 26 Oct 2013 09:24:55 AM EEST
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Thu 31 Oct 2013 05:21:06 PM EET
 
 BeginCmp
 TimeStamp = /5267FF12;
@@ -73,12 +73,12 @@ EndCmp
 BeginCmp
 TimeStamp = /52680B5F;
 Reference = C11;
-ValeurCmp = C;
-IdModule  = SM0402;
+ValeurCmp = 1uF;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /52680B54;
+TimeStamp = /526B936E;
 Reference = C12;
 ValeurCmp = C;
 IdModule  = SM0402;
@@ -87,22 +87,22 @@ EndCmp
 BeginCmp
 TimeStamp = /52680B5C;
 Reference = C13;
-ValeurCmp = C;
-IdModule  = SM0402;
+ValeurCmp = 1uF;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /52692718;
-Reference = CN1;
-ValeurCmp = CN_4;
-IdModule  = PIN_ARRAY_4x1;
-EndCmp
-
-BeginCmp
-TimeStamp = /5268077A;
+TimeStamp = /526EA7A2;
 Reference = J1;
-ValeurCmp = USB_MINI;
-IdModule  = USB-MINI-B;
+ValeurCmp = USB_MICRO;
+IdModule  = USB_MICRO_10118194-0001LF;
+EndCmp
+
+BeginCmp
+TimeStamp = /52727455;
+Reference = JP1;
+ValeurCmp = BREAKER;
+IdModule  = SM0402;
 EndCmp
 
 BeginCmp
@@ -117,6 +117,13 @@ TimeStamp = /52680726;
 Reference = P2;
 ValeurCmp = CONN_12X2;
 IdModule  = pin_array_12x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /526B7A3D;
+Reference = P3;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
 EndCmp
 
 BeginCmp
@@ -148,34 +155,6 @@ IdModule  = SM0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /52680C05;
-Reference = R5;
-ValeurCmp = R;
-IdModule  = SM0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /52680C09;
-Reference = R6;
-ValeurCmp = R;
-IdModule  = SM0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /52680070;
-Reference = SW1;
-ValeurCmp = SW_PUSH;
-IdModule  = SW_PUSH_SMALL;
-EndCmp
-
-BeginCmp
-TimeStamp = /526801B2;
-Reference = SW2;
-ValeurCmp = SWITCH_INV;
-IdModule  = SW_PUSH_SMALL;
-EndCmp
-
-BeginCmp
 TimeStamp = /5267F60C;
 Reference = U1;
 ValeurCmp = STM32F4-64;
@@ -186,6 +165,13 @@ BeginCmp
 TimeStamp = /52680A9F;
 Reference = U2;
 ValeurCmp = TPS769XX;
+IdModule  = SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /526FFC0E;
+Reference = U3;
+ValeurCmp = SN65220;
 IdModule  = SOT23_6;
 EndCmp
 
