@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Thu 31 Oct 2013 05:21:06 PM EET
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Thu 07 Nov 2013 05:17:37 PM EET
 
 BeginCmp
 TimeStamp = /5267FF12;
@@ -124,6 +124,20 @@ TimeStamp = /526B7A3D;
 Reference = P3;
 ValeurCmp = CONN_6;
 IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /527BAC3B;
+Reference = Q1;
+ValeurCmp = FET_P;
+IdModule  = SOT23GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /527BACD9;
+Reference = Q2;
+ValeurCmp = FET_P;
+IdModule  = SOT23GDS;
 EndCmp
 
 BeginCmp
