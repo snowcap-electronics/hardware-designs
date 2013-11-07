@@ -1,0 +1,45 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Thu 07 Nov 2013 08:38:37 PM EET
+
+BeginCmp
+TimeStamp = /52768811;
+Reference = CN1;
+ValeurCmp = CN_10;
+IdModule  = CONN-10-2MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /52768845;
+Reference = CN2;
+ValeurCmp = CN_10;
+IdModule  = CONN-10-2MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5268071F;
+Reference = P1;
+ValeurCmp = CONN_12X2;
+IdModule  = pin_array_12x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52680726;
+Reference = P2;
+ValeurCmp = CONN_12X2;
+IdModule  = pin_array_12x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5274AE64;
+Reference = P3;
+ValeurCmp = CONN_25;
+IdModule  = pin_array_25x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5274AE57;
+Reference = P4;
+ValeurCmp = CONN_25;
+IdModule  = pin_array_25x1;
+EndCmp
+
+EndListe
