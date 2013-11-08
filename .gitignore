@@ -1,0 +1,8 @@
+*moc_*
+*.o
+*.bak
+*-cache.lib
+*.000
+*.pdf
+*.ps
+*.drl
