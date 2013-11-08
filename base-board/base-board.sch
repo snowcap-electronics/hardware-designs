@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 07 Nov 2013 08:56:18 PM EET
+EESchema Schematic File Version 2  date Fri 08 Nov 2013 06:23:02 PM EET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "7 nov 2013"
+Date "8 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -157,7 +157,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 2300 5350 2450
 Text GLabel 7450 2300 3    50   Input ~ 0
-VDD
+PWR_3V
 $Comp
 L CN_10 CN2
 U 1 1 52768845
@@ -208,7 +208,7 @@ F 1 "GND" H 5350 2380 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5250 2300 3    50   Input ~ 0
-VDD
+PWR_3V
 Text Notes 4600 4550 0    50   ~ 0
 PWM_B1-4\nPWM_C1-2
 $Comp
@@ -221,9 +221,9 @@ F 1 "GND" H 4650 2380 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4550 2300 3    50   Input ~ 0
-VDD
+PWR_3V
 Text GLabel 3350 3950 1    50   Input ~ 0
-OTG_FS_VBUS
+PWR_5V
 Text Notes 4600 1750 0    50   ~ 0
 PWM_A1-4
 Text Notes 4050 1750 0    50   ~ 0
@@ -244,9 +244,9 @@ F 1 "GND" H 4150 2380 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4050 2300 3    50   Input ~ 0
-VDD
+PWR_3V
 Text GLabel 3350 2300 3    50   Input ~ 0
-VDD
+PWR_3V
 $Comp
 L GND #PWR05
 U 1 1 52760254
@@ -341,9 +341,9 @@ PC2
 Text GLabel 1400 1500 1    50   Input ~ 0
 VBAT
 Text GLabel 1500 1500 1    50   Input ~ 0
-VDD
+PWR_3V
 Text GLabel 1400 2300 3    50   Input ~ 0
-OTG_FS_VBUS
+PWR_5V
 Text Label 2500 4750 3    50   ~ 0
 USART2_CTS/AN1
 Text Label 2400 4750 3    50   ~ 0

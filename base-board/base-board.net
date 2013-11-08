@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Thu 07 Nov 2013 08:56:24 PM EET
+# EESchema Netlist Version 1.1 created  Fri 08 Nov 2013 06:23:06 PM EET
 (
  ( /52768845 $noname  CN2 CN_10 {Lib=CN_10}
   (    1 /SPI2_MISO )
@@ -13,7 +13,7 @@
   (   10 ? )
  )
  ( /52768811 $noname  CN1 CN_10 {Lib=CN_10}
-  (    1 VDD )
+  (    1 PWR_3V )
   (    2 /USART2_TX/AN3 )
   (    3 /USART2_RX/AN4 )
   (    4 ? )
@@ -25,26 +25,26 @@
   (   10 GND )
  )
  ( /5274AE64 $noname  P3 CONN_25 {Lib=CONN_25}
-  (    1 VDD )
+  (    1 PWR_3V )
   (    2 GND )
   (    3 /SPI3_SCK/USART3_TX )
   (    4 /SPI3_MISO/USART3_RX )
   (    5 /SPI3_MOSI )
   (    6 /GPIO1 )
   (    7 ? )
-  (    8 VDD )
+  (    8 PWR_3V )
   (    9 GND )
   (   10 /GPIO2 )
   (   11 /GPIO3 )
   (   12 ? )
-  (   13 VDD )
+  (   13 PWR_3V )
   (   14 GND )
   (   15 /PWM_A1 )
   (   16 /PWM_A2 )
   (   17 /PWM_A3 )
   (   18 /PWM_A4 )
   (   19 ? )
-  (   20 VDD )
+  (   20 PWR_3V )
   (   21 GND )
   (   22 /SPI3_SCK/GPIO4 )
   (   23 /SPI3_MISO/GPIO5 )
@@ -52,7 +52,7 @@
   (   25 /GPIO7 )
  )
  ( /5274AE57 $noname  P4 CONN_25 {Lib=CONN_25}
-  (    1 OTG_FS_VBUS )
+  (    1 PWR_5V )
   (    2 VBAT )
   (    3 /SPI1_SCK )
   (    4 /SPI1_MISO )
@@ -80,8 +80,8 @@
  )
  ( /52680726 $noname  P2 CONN_12X2 {Lib=CONN_12X2}
   (    1 VBAT )
-  (    2 OTG_FS_VBUS )
-  (    3 VDD )
+  (    2 PWR_5V )
+  (    3 PWR_3V )
   (    4 GND )
   (    5 /SPI3_SCK/USART3_TX )
   (    6 /GPIO1 )
@@ -229,10 +229,10 @@ Net 34 "/SPI3_SCK/USART3_TX" "SPI3_SCK/USART3_TX"
 Net 35 "VBAT" "VBAT"
  P2 1
  P4 2
-Net 36 "OTG_FS_VBUS" "OTG_FS_VBUS"
+Net 36 "PWR_5V" "PWR_5V"
  P2 2
  P4 1
-Net 37 "VDD" "VDD"
+Net 37 "PWR_3V" "PWR_3V"
  P3 20
  P3 13
  P3 8
