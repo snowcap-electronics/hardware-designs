@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 08 Nov 2013 06:23:02 PM EET
+EESchema Schematic File Version 2  date Sat 09 Nov 2013 07:29:50 PM EET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "8 nov 2013"
+Date "9 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,6 +45,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 2500 2300 3    50   ~ 0
+RADIO_NRST/SBWTDIO
+Text Label 2500 1500 1    50   ~ 0
+RADIO_TEST/SBWTCK
+Text Label 6950 2300 3    50   ~ 0
+RADIO_TEST/SBWTCK
+Text Label 7050 2300 3    50   ~ 0
+RADIO_NRST/SBWTDIO
 Text Label 7150 3950 1    50   ~ 0
 SPI2_NSS
 Text Label 7250 3950 1    50   ~ 0
@@ -316,8 +324,6 @@ Text Label 2300 2300 3    50   ~ 0
 PC15
 Text Label 2400 1500 1    50   ~ 0
 GPIO3
-Text Label 2500 1500 1    50   ~ 0
-PC3
 Text Label 1600 2300 3    50   ~ 0
 GPIO1
 Text Label 1700 2300 3    50   ~ 0
@@ -336,8 +342,6 @@ Text GLabel 2300 1500 1    50   Input ~ 0
 NRST
 Text Label 2400 2300 3    50   ~ 0
 GPIO2
-Text Label 2500 2300 3    50   ~ 0
-PC2
 Text GLabel 1400 1500 1    50   Input ~ 0
 VBAT
 Text GLabel 1500 1500 1    50   Input ~ 0
