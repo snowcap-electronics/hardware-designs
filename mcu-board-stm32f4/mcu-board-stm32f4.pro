@@ -1,4 +1,4 @@
-update=Sat 26 Oct 2013 01:11:35 PM EEST
+update=Sat 09 Nov 2013 09:51:03 PM EET
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -74,18 +74,18 @@ LibName31=snowcap
 [pcbnew]
 version=1
 PadDrlX=0
-PadDimH=866
-PadDimV=118
+PadDimH=709
+PadDimV=472
 BoardThickness=630
-TxtPcbV=800
-TxtPcbH=600
+TxtPcbV=400
+TxtPcbH=300
 TxtModV=600
 TxtModH=600
 TxtModW=120
 VEgarde=10
 DrawLar=150
 EdgeLar=150
-TxtLar=120
+TxtLar=75
 MSegLar=150
 LastNetListRead=mcu-board-stm32f4.net
 [pcbnew/libraries]
@@ -102,3 +102,4 @@ LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
 LibName12=snowcap
+LibName13=logo
