@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 09 Nov 2013 08:01:09 PM EET
+EESchema Schematic File Version 2  date Sun 10 Nov 2013 10:28:52 AM EET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "9 nov 2013"
+Date "10 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,6 +45,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 6050 5100 0    60   ~ 0
+User LED
 Wire Wire Line
 	6250 6250 6250 6100
 Wire Wire Line
