@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 10 Nov 2013 10:28:52 AM EET
+EESchema Schematic File Version 2  date Sun 10 Nov 2013 10:35:54 AM EET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -709,7 +709,7 @@ $Comp
 L R R2
 U 1 1 52680185
 P 9900 1750
-F 0 "R2" V 9900 1650 50  0000 C CNN
+F 0 "R2" V 9800 1750 50  0000 C CNN
 F 1 "10k" V 9900 1750 50  0000 C CNN
 	1    9900 1750
 	0    -1   -1   0   
