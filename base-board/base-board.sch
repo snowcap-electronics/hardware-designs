@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 09 Nov 2013 07:29:50 PM EET
+EESchema Schematic File Version 2  date Sun 10 Nov 2013 01:47:53 PM EET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "9 nov 2013"
+Date "10 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -153,7 +153,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 2300 4150 2450
 Wire Wire Line
-	1400 3950 1400 3750
+	1400 3900 1400 3700
 Wire Wire Line
 	1500 2300 1500 2650
 Wire Wire Line
@@ -285,17 +285,17 @@ $EndComp
 $Comp
 L GND #PWR06
 U 1 1 5273C030
-P 1400 3750
-F 0 "#PWR06" H 1400 3750 30  0001 C CNN
-F 1 "GND" H 1400 3680 30  0001 C CNN
-	1    1400 3750
+P 1400 3700
+F 0 "#PWR06" H 1400 3700 30  0001 C CNN
+F 1 "GND" H 1400 3630 30  0001 C CNN
+	1    1400 3700
 	1    0    0    1   
 $EndComp
-Text Label 1400 4750 3    50   ~ 0
+Text Label 1400 4700 3    50   ~ 0
 GPIO8
-Text Label 1500 3950 1    50   ~ 0
+Text Label 1500 3900 1    50   ~ 0
 PWM_B4
-Text Label 1500 4750 3    50   ~ 0
+Text Label 1500 4700 3    50   ~ 0
 PWM_B3
 $Comp
 L GND #PWR07
@@ -348,45 +348,45 @@ Text GLabel 1500 1500 1    50   Input ~ 0
 PWR_3V
 Text GLabel 1400 2300 3    50   Input ~ 0
 PWR_5V
-Text Label 2500 4750 3    50   ~ 0
+Text Label 2500 4700 3    50   ~ 0
 USART2_CTS/AN1
-Text Label 2400 4750 3    50   ~ 0
+Text Label 2400 4700 3    50   ~ 0
 USART2_TX/AN3
-Text Label 2300 4750 3    50   ~ 0
+Text Label 2300 4700 3    50   ~ 0
 DAC1
-Text Label 2200 4750 3    50   ~ 0
+Text Label 2200 4700 3    50   ~ 0
 SPI1_MISO
-Text Label 2100 4750 3    50   ~ 0
+Text Label 2100 4700 3    50   ~ 0
 GPIO9
-Text Label 2000 4750 3    50   ~ 0
+Text Label 2000 4700 3    50   ~ 0
 PWM_C1
-Text Label 1900 4750 3    50   ~ 0
+Text Label 1900 4700 3    50   ~ 0
 I2C2_CLK
-Text Label 2500 3950 1    50   ~ 0
+Text Label 2500 3900 1    50   ~ 0
 USART2_RTS/AN2
-Text Label 2400 3950 1    50   ~ 0
+Text Label 2400 3900 1    50   ~ 0
 USART2_RX/AN4
-Text Label 2300 3950 1    50   ~ 0
+Text Label 2300 3900 1    50   ~ 0
 SPI1_SCK
-Text Label 2200 3950 1    50   ~ 0
+Text Label 2200 3900 1    50   ~ 0
 SPI1_MOSI
-Text Label 2100 3950 1    50   ~ 0
+Text Label 2100 3900 1    50   ~ 0
 GPIO10
-Text Label 2000 3950 1    50   ~ 0
+Text Label 2000 3900 1    50   ~ 0
 PWM_C2
-Text Label 1900 3950 1    50   ~ 0
+Text Label 1900 3900 1    50   ~ 0
 I2C2_SDA
-Text Label 1800 4750 3    50   ~ 0
+Text Label 1800 4700 3    50   ~ 0
 SPI2_NSS
-Text Label 1700 4750 3    50   ~ 0
+Text Label 1700 4700 3    50   ~ 0
 SPI2_MISO
-Text Label 1600 4750 3    50   ~ 0
+Text Label 1600 4700 3    50   ~ 0
 PWM_B1
-Text Label 1800 3950 1    50   ~ 0
+Text Label 1800 3900 1    50   ~ 0
 SPI2_SCK
-Text Label 1700 3950 1    50   ~ 0
+Text Label 1700 3900 1    50   ~ 0
 SPI2_MOSI
-Text Label 1600 3950 1    50   ~ 0
+Text Label 1600 3900 1    50   ~ 0
 PWM_B2
 $Comp
 L CONN_12X2 P2
@@ -395,15 +395,15 @@ P 1950 1900
 F 0 "P2" H 1950 2550 60  0000 C CNN
 F 1 "CONN_12X2" V 1950 1900 50  0000 C CNN
 	1    1950 1900
-	0    -1   1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_12X2 P1
 U 1 1 5268071F
-P 1950 4350
-F 0 "P1" H 1950 5000 60  0000 C CNN
-F 1 "CONN_12X2" V 1950 4350 50  0000 C CNN
-	1    1950 4350
-	0    -1   1    0   
+P 1950 4300
+F 0 "P1" H 1950 4950 60  0000 C CNN
+F 1 "CONN_12X2" V 1950 4300 50  0000 C CNN
+	1    1950 4300
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

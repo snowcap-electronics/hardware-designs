@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sat 09 Nov 2013 07:29:53 PM EET
+# EESchema Netlist Version 1.1 created  Sun 10 Nov 2013 01:41:05 PM EET
 (
  ( /52768845 $noname  CN2 CN_10 {Lib=CN_10}
   (    1 /SPI2_MISO )
@@ -79,204 +79,204 @@
   (   25 NRST )
  )
  ( /52680726 $noname  P2 CONN_12X2 {Lib=CONN_12X2}
-  (    1 VBAT )
-  (    2 PWR_5V )
-  (    3 PWR_3V )
-  (    4 GND )
-  (    5 /SPI3_SCK/USART3_TX )
-  (    6 /GPIO1 )
-  (    7 /SPI3_MOSI )
-  (    8 /SPI3_MISO/USART3_RX )
-  (    9 /SPI3_SCK/GPIO4 )
-  (   10 /GPIO7 )
-  (   11 /SPI3_MOSI/GPIO6 )
-  (   12 /SPI3_MISO/GPIO5 )
-  (   13 /PWM_A2 )
-  (   14 /PWM_A1 )
-  (   15 /PWM_A4 )
-  (   16 /PWM_A3 )
+  (    1 PWR_5V )
+  (    2 VBAT )
+  (    3 GND )
+  (    4 PWR_3V )
+  (    5 /GPIO1 )
+  (    6 /SPI3_SCK/USART3_TX )
+  (    7 /SPI3_MISO/USART3_RX )
+  (    8 /SPI3_MOSI )
+  (    9 /GPIO7 )
+  (   10 /SPI3_SCK/GPIO4 )
+  (   11 /SPI3_MISO/GPIO5 )
+  (   12 /SPI3_MOSI/GPIO6 )
+  (   13 /PWM_A1 )
+  (   14 /PWM_A2 )
+  (   15 /PWM_A3 )
+  (   16 /PWM_A4 )
   (   17 ? )
   (   18 ? )
-  (   19 NRST )
-  (   20 ? )
-  (   21 /GPIO3 )
-  (   22 /GPIO2 )
-  (   23 /RADIO_TEST/SBWTCK )
-  (   24 /RADIO_NRST/SBWTDIO )
+  (   19 ? )
+  (   20 NRST )
+  (   21 /GPIO2 )
+  (   22 /GPIO3 )
+  (   23 /RADIO_NRST/SBWTDIO )
+  (   24 /RADIO_TEST/SBWTCK )
  )
  ( /5268071F $noname  P1 CONN_12X2 {Lib=CONN_12X2}
-  (    1 GND )
-  (    2 /GPIO8 )
-  (    3 /PWM_B4 )
-  (    4 /PWM_B3 )
-  (    5 /PWM_B2 )
-  (    6 /PWM_B1 )
-  (    7 /SPI2_MOSI )
-  (    8 /SPI2_MISO )
-  (    9 /SPI2_SCK )
-  (   10 /SPI2_NSS )
-  (   11 /I2C2_SDA )
-  (   12 /I2C2_CLK )
-  (   13 /PWM_C2 )
-  (   14 /PWM_C1 )
-  (   15 /GPIO10 )
-  (   16 /GPIO9 )
-  (   17 /SPI1_MOSI )
-  (   18 /SPI1_MISO )
-  (   19 /SPI1_SCK )
-  (   20 /DAC1 )
-  (   21 /USART2_RX/AN4 )
-  (   22 /USART2_TX/AN3 )
-  (   23 /USART2_RTS/AN2 )
-  (   24 /USART2_CTS/AN1 )
+  (    1 /GPIO8 )
+  (    2 GND )
+  (    3 /PWM_B3 )
+  (    4 /PWM_B4 )
+  (    5 /PWM_B1 )
+  (    6 /PWM_B2 )
+  (    7 /SPI2_MISO )
+  (    8 /SPI2_MOSI )
+  (    9 /SPI2_NSS )
+  (   10 /SPI2_SCK )
+  (   11 /I2C2_CLK )
+  (   12 /I2C2_SDA )
+  (   13 /PWM_C1 )
+  (   14 /PWM_C2 )
+  (   15 /GPIO9 )
+  (   16 /GPIO10 )
+  (   17 /SPI1_MISO )
+  (   18 /SPI1_MOSI )
+  (   19 /DAC1 )
+  (   20 /SPI1_SCK )
+  (   21 /USART2_TX/AN3 )
+  (   22 /USART2_RX/AN4 )
+  (   23 /USART2_CTS/AN1 )
+  (   24 /USART2_RTS/AN2 )
  )
 )
 *
 { Pin List by Nets
-Net 4 "/SPI2_NSS" "SPI2_NSS"
+Net 4 "/SPI2_SCK" "SPI2_SCK"
+ CN2 3
  P1 10
- CN2 4
-Net 5 "/PWM_A4" "PWM_A4"
- P2 15
- P3 18
-Net 6 "/PWM_A3" "PWM_A3"
- P2 16
+Net 5 "/PWM_A3" "PWM_A3"
  P3 17
-Net 9 "NRST" "NRST"
- P4 25
- P2 19
-Net 10 "GND" "GND"
+ P2 15
+Net 6 "/PWM_A4" "PWM_A4"
+ P3 18
+ P2 16
+Net 10 "/GPIO8" "GPIO8"
+ P4 6
  P1 1
- P2 4
+Net 11 "GND" "GND"
+ CN1 10
+ P2 3
+ P3 14
+ P1 2
+ P3 21
  P3 2
  P3 9
- P3 14
- CN1 10
- P3 21
-Net 11 "/GPIO8" "GPIO8"
- P4 6
- P1 2
-Net 12 "/PWM_B4" "PWM_B4"
- P4 16
- P1 3
-Net 13 "/PWM_B3" "PWM_B3"
- P1 4
+Net 12 "/PWM_B3" "PWM_B3"
  P4 15
-Net 14 "/PWM_B2" "PWM_B2"
+ P1 3
+Net 13 "/PWM_B4" "PWM_B4"
+ P4 16
+ P1 4
+Net 14 "/PWM_B1" "PWM_B1"
  P1 5
- P4 14
-Net 15 "/PWM_B1" "PWM_B1"
- P1 6
  P4 13
-Net 16 "/SPI2_MOSI" "SPI2_MOSI"
- P1 7
- CN2 2
-Net 17 "/SPI2_MISO" "SPI2_MISO"
- P1 8
+Net 15 "/PWM_B2" "PWM_B2"
+ P1 6
+ P4 14
+Net 16 "/SPI2_MISO" "SPI2_MISO"
  CN2 1
-Net 18 "/SPI2_SCK" "SPI2_SCK"
+ P1 7
+Net 17 "/SPI2_MOSI" "SPI2_MOSI"
+ CN2 2
+ P1 8
+Net 18 "/SPI2_NSS" "SPI2_NSS"
+ CN2 4
  P1 9
- CN2 3
-Net 19 "/DAC1" "DAC1"
- P4 24
+Net 19 "/RADIO_TEST/SBWTCK" "RADIO_TEST/SBWTCK"
+ CN1 6
+ P2 24
+Net 20 "/SPI1_SCK" "SPI1_SCK"
+ P4 3
  P1 20
-Net 20 "/I2C2_SDA" "I2C2_SDA"
+Net 21 "/I2C2_CLK" "I2C2_CLK"
  P1 11
- P4 10
-Net 21 "/USART2_RX/AN4" "USART2_RX/AN4"
- P1 21
- P4 23
- CN1 3
-Net 22 "/I2C2_CLK" "I2C2_CLK"
  P4 11
- P1 12
-Net 23 "/USART2_TX/AN3" "USART2_TX/AN3"
+Net 22 "/USART2_TX/AN3" "USART2_TX/AN3"
  CN1 2
+ P1 21
  P4 22
+Net 23 "/I2C2_SDA" "I2C2_SDA"
+ P1 12
+ P4 10
+Net 24 "/USART2_RX/AN4" "USART2_RX/AN4"
+ P4 23
  P1 22
-Net 24 "/PWM_C2" "PWM_C2"
- P4 18
- P1 13
-Net 25 "/USART2_RTS/AN2" "USART2_RTS/AN2"
- P4 21
- P1 23
- CN2 5
-Net 26 "/PWM_C1" "PWM_C1"
- P1 14
+ CN1 3
+Net 25 "/PWM_C1" "PWM_C1"
  P4 17
-Net 27 "/USART2_CTS/AN1" "USART2_CTS/AN1"
- P1 24
- CN2 9
+ P1 13
+Net 26 "/USART2_CTS/AN1" "USART2_CTS/AN1"
  P4 20
-Net 28 "/GPIO10" "GPIO10"
- P4 9
- P1 15
+ P1 23
+ CN2 9
+Net 27 "/PWM_C2" "PWM_C2"
+ P1 14
+ P4 18
+Net 28 "/USART2_RTS/AN2" "USART2_RTS/AN2"
+ P4 21
+ CN2 5
+ P1 24
 Net 29 "/GPIO9" "GPIO9"
  P4 8
+ P1 15
+Net 30 "/GPIO10" "GPIO10"
+ P4 9
  P1 16
-Net 30 "/SPI1_MOSI" "SPI1_MOSI"
- P4 5
- P1 17
 Net 31 "/SPI1_MISO" "SPI1_MISO"
- P1 18
+ P1 17
  P4 4
-Net 32 "/SPI1_SCK" "SPI1_SCK"
+Net 32 "/SPI1_MOSI" "SPI1_MOSI"
+ P4 5
+ P1 18
+Net 33 "/DAC1" "DAC1"
  P1 19
- P4 3
-Net 33 "/SPI3_SCK/USART3_TX" "SPI3_SCK/USART3_TX"
- P3 3
+ P4 24
+Net 34 "/GPIO1" "GPIO1"
+ P3 6
  P2 5
-Net 34 "VBAT" "VBAT"
- P2 1
- P4 2
 Net 35 "PWR_5V" "PWR_5V"
- P2 2
+ P2 1
  P4 1
-Net 36 "PWR_3V" "PWR_3V"
+Net 36 "VBAT" "VBAT"
+ P4 2
+ P2 2
+Net 37 "PWR_3V" "PWR_3V"
  CN1 1
+ P3 1
  P3 13
  P3 20
  P3 8
- P3 1
- P2 3
-Net 37 "/GPIO1" "GPIO1"
+ P2 4
+Net 38 "/SPI3_SCK/USART3_TX" "SPI3_SCK/USART3_TX"
  P2 6
- P3 6
-Net 38 "/SPI3_MOSI" "SPI3_MOSI"
- P2 7
- P3 5
+ P3 3
 Net 39 "/SPI3_MISO/USART3_RX" "SPI3_MISO/USART3_RX"
- P2 8
  P3 4
-Net 40 "/SPI3_SCK/GPIO4" "SPI3_SCK/GPIO4"
- P2 9
- P3 22
+ P2 7
+Net 40 "/SPI3_MOSI" "SPI3_MOSI"
+ P3 5
+ P2 8
 Net 41 "/GPIO7" "GPIO7"
+ P2 9
  P3 25
+Net 42 "/SPI3_SCK/GPIO4" "SPI3_SCK/GPIO4"
  P2 10
-Net 43 "/SPI3_MOSI/GPIO6" "SPI3_MOSI/GPIO6"
- P2 11
- P3 24
-Net 44 "/GPIO3" "GPIO3"
- P2 21
- P3 11
-Net 45 "/SPI3_MISO/GPIO5" "SPI3_MISO/GPIO5"
- P2 12
+ P3 22
+Net 43 "NRST" "NRST"
+ P4 25
+ P2 20
+Net 44 "/SPI3_MISO/GPIO5" "SPI3_MISO/GPIO5"
  P3 23
-Net 46 "/GPIO2" "GPIO2"
- P2 22
+ P2 11
+Net 45 "/GPIO2" "GPIO2"
+ P2 21
  P3 10
-Net 47 "/PWM_A2" "PWM_A2"
+Net 46 "/SPI3_MOSI/GPIO6" "SPI3_MOSI/GPIO6"
+ P2 12
+ P3 24
+Net 47 "/GPIO3" "GPIO3"
+ P2 22
+ P3 11
+Net 48 "/PWM_A1" "PWM_A1"
  P2 13
- P3 16
-Net 48 "/RADIO_TEST/SBWTCK" "RADIO_TEST/SBWTCK"
- P2 23
- CN1 6
-Net 49 "/PWM_A1" "PWM_A1"
- P2 14
  P3 15
+Net 49 "/PWM_A2" "PWM_A2"
+ P3 16
+ P2 14
 Net 59 "/RADIO_NRST/SBWTDIO" "RADIO_NRST/SBWTDIO"
- P2 24
  CN1 5
+ P2 23
 }
 #End

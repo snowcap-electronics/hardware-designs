@@ -1,4 +1,4 @@
-update=Sun 03 Nov 2013 06:47:17 PM EET
+update=Mon 11 Nov 2013 06:34:12 PM EET
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -77,17 +77,17 @@ PadDrlX=320
 PadDimH=600
 PadDimV=600
 BoardThickness=630
-TxtPcbV=800
-TxtPcbH=600
+TxtPcbV=400
+TxtPcbH=300
 TxtModV=600
 TxtModH=600
 TxtModW=120
 VEgarde=100
 DrawLar=150
 EdgeLar=150
-TxtLar=120
+TxtLar=75
 MSegLar=150
-LastNetListRead=
+LastNetListRead=base-board.net
 [pcbnew/libraries]
 LibDir=../kicad
 LibName1=sockets
@@ -102,3 +102,4 @@ LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
 LibName12=snowcap
+LibName13=logo
