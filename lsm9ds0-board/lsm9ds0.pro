@@ -1,4 +1,4 @@
-update=Sat 28 Sep 2013 11:17:42 AM EEST
+update=Tue 12 Nov 2013 07:46:41 PM EET
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -73,20 +73,20 @@ LibName30=valves
 LibName31=snowcap
 [pcbnew]
 version=1
-PadDrlX=320
-PadDimH=600
-PadDimV=600
+PadDrlX=0
+PadDimH=532
+PadDimV=79
 BoardThickness=630
-TxtPcbV=800
-TxtPcbH=600
+TxtPcbV=400
+TxtPcbH=400
 TxtModV=600
 TxtModH=600
 TxtModW=120
 VEgarde=100
 DrawLar=150
 EdgeLar=150
-TxtLar=120
-MSegLar=150
+TxtLar=75
+MSegLar=39
 LastNetListRead=
 [pcbnew/libraries]
 LibDir=../kicad
@@ -102,3 +102,4 @@ LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
 LibName12=snowcap
+LibName13=logo
