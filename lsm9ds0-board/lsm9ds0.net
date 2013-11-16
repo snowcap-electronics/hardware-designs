@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sat 28 Sep 2013 12:51:30 PM EEST
+# EESchema Netlist Version 1.1 created  Sat 16 Nov 2013 11:29:48 AM EET
 (
  ( /52459D91 SM0402 C1 4.7uF
   ( 1 GND )
@@ -12,7 +12,7 @@
   ( 1 GND )
   ( 2 +3.3V )
  )
- ( /52468D09 SM0402 C4 10uF
+ ( /52468D09 SM0603_Capa C4 10uF
   ( 1 GND )
   ( 2 +3.3V )
  )
