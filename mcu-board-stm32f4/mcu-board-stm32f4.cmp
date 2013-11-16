@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Sat 09 Nov 2013 07:53:37 PM EET
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Sat 16 Nov 2013 07:26:36 PM EET
 
 BeginCmp
 TimeStamp = /5267FF12;
@@ -78,16 +78,9 @@ IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /526B936E;
+TimeStamp = /5284E8B2;
 Reference = C12;
-ValeurCmp = C;
-IdModule  = SM0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /52680B5C;
-Reference = C13;
-ValeurCmp = 1uF;
+ValeurCmp = 2.2uF;
 IdModule  = SM0603_Capa;
 EndCmp
 
@@ -109,7 +102,21 @@ BeginCmp
 TimeStamp = /52727455;
 Reference = JP1;
 ValeurCmp = BREAKER;
-IdModule  = SM0402;
+IdModule  = SM0805_BREAKER;
+EndCmp
+
+BeginCmp
+TimeStamp = /528792AA;
+Reference = JP2;
+ValeurCmp = BREAKER;
+IdModule  = SM0805_BREAKER;
+EndCmp
+
+BeginCmp
+TimeStamp = /52879258;
+Reference = JP3;
+ValeurCmp = BREAKER;
+IdModule  = SM0805_BREAKER;
 EndCmp
 
 BeginCmp
@@ -131,20 +138,6 @@ TimeStamp = /526B7A3D;
 Reference = P3;
 ValeurCmp = CONN_6;
 IdModule  = PIN_ARRAY-6X1;
-EndCmp
-
-BeginCmp
-TimeStamp = /527BAC3B;
-Reference = Q1;
-ValeurCmp = FET_P;
-IdModule  = SOT23GDS;
-EndCmp
-
-BeginCmp
-TimeStamp = /527BACD9;
-Reference = Q2;
-ValeurCmp = FET_P;
-IdModule  = SOT23GDS;
 EndCmp
 
 BeginCmp
@@ -190,10 +183,10 @@ IdModule  = lqfp64-longpads;
 EndCmp
 
 BeginCmp
-TimeStamp = /52680A9F;
+TimeStamp = /52879F9D;
 Reference = U2;
-ValeurCmp = TPS769XX;
-IdModule  = SOT23-5;
+ValeurCmp = TPS70933_DCY;
+IdModule  = SOT223;
 EndCmp
 
 BeginCmp

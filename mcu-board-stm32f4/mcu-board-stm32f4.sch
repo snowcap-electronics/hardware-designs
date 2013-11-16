@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 10 Nov 2013 10:35:54 AM EET
+EESchema Schematic File Version 2  date Sat 16 Nov 2013 06:52:04 PM EET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "10 nov 2013"
+Date "16 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,18 +45,23 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 6050 5100 0    60   ~ 0
-User LED
+Connection ~ 2000 5850
 Wire Wire Line
-	6250 6250 6250 6100
+	2000 5500 2000 5850
+Connection ~ 2350 5850
 Wire Wire Line
-	6250 6650 6250 6850
-Connection ~ 2050 5700
+	1950 5850 2650 5850
 Wire Wire Line
-	2050 5450 2050 5700
-Connection ~ 2250 6250
+	5150 5850 5150 5500
+Connection ~ 3200 6250
 Wire Wire Line
-	1650 6150 1650 6250
+	4050 6250 2350 6250
+Wire Wire Line
+	3200 6250 3200 6350
+Wire Wire Line
+	7900 3500 7900 3350
+Wire Wire Line
+	7900 3900 7900 4100
 Wire Wire Line
 	4200 2300 4200 2250
 Wire Wire Line
@@ -75,9 +80,6 @@ Wire Wire Line
 	10600 4800 10600 4700
 Wire Wire Line
 	10600 4700 9800 4700
-Connection ~ 3950 5700
-Wire Wire Line
-	4200 5700 3350 5700
 Wire Wire Line
 	9100 6000 9450 6000
 Wire Wire Line
@@ -88,21 +90,13 @@ Wire Wire Line
 	9950 5850 9950 5950
 Wire Wire Line
 	9950 6150 9600 6150
-Connection ~ 2900 6250
-Connection ~ 2350 5700
-Wire Wire Line
-	2350 5700 2350 5850
-Wire Wire Line
-	2350 5850 2450 5850
-Wire Wire Line
-	2450 5700 2000 5700
 Wire Wire Line
 	1300 4000 1300 3950
 Wire Wire Line
 	1300 3950 1650 3950
 Connection ~ 8650 1750
 Wire Wire Line
-	8650 1550 8650 1800
+	8650 1800 8650 1550
 Wire Wire Line
 	1450 750  1450 700 
 Wire Wire Line
@@ -121,22 +115,22 @@ Wire Wire Line
 	1300 3000 1300 2950
 Wire Wire Line
 	1300 2950 1650 2950
-Connection ~ 1950 7150
+Connection ~ 7500 6050
 Wire Wire Line
-	1200 7150 2200 7150
-Connection ~ 1450 7150
-Connection ~ 900  7550
+	6750 6050 7750 6050
+Connection ~ 7000 6050
+Connection ~ 6450 6450
 Wire Wire Line
-	2200 7550 650  7550
-Connection ~ 1450 7550
-Connection ~ 1950 7550
+	7750 6450 6200 6450
+Connection ~ 7000 6450
+Connection ~ 7500 6450
 Wire Wire Line
-	650  7550 650  7650
-Connection ~ 1700 7550
-Connection ~ 1200 7550
-Connection ~ 1700 7150
+	6200 6450 6200 6550
+Connection ~ 7250 6450
+Connection ~ 6750 6450
+Connection ~ 7250 6050
 Wire Wire Line
-	2200 7150 2200 7050
+	7750 6050 7750 5950
 Wire Wire Line
 	3450 4250 3800 4250
 Wire Wire Line
@@ -157,17 +151,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 6350 9850 6450
 Wire Wire Line
-	2250 5700 2250 5850
-Connection ~ 2250 5700
-Wire Wire Line
-	2900 6150 2900 6400
-Wire Wire Line
 	9950 6250 9100 6250
-Wire Wire Line
-	3350 5850 3600 5850
-Wire Wire Line
-	3950 6250 3950 6100
-Connection ~ 3600 6250
 Wire Wire Line
 	10250 5600 10500 5600
 Wire Wire Line
@@ -193,66 +177,103 @@ Wire Wire Line
 Wire Wire Line
 	6050 2000 6050 2200
 Wire Wire Line
-	1650 6250 4550 6250
+	7900 2850 7900 2650
 Wire Wire Line
-	4550 6250 4550 6150
-Connection ~ 3950 6250
+	2650 6050 2650 6250
+Connection ~ 2650 6250
 Wire Wire Line
-	4100 5450 4100 5700
-Connection ~ 4100 5700
+	3750 6050 3750 6250
+Connection ~ 3750 6250
 Wire Wire Line
-	6250 5600 6250 5400
+	3750 5850 4050 5850
+Wire Wire Line
+	5450 5500 5450 5850
+Wire Wire Line
+	5450 5850 5050 5850
+Connection ~ 5150 5850
+Wire Wire Line
+	950  5500 950  5850
+$Comp
+L TPS70933_DCY U2
+U 1 1 52879F9D
+P 3200 5950
+F 0 "U2" H 3200 5750 60  0000 C CNN
+F 1 "TPS70933_DCY" H 3200 6150 60  0000 C CNN
+	1    3200 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L BREAKER JP2
+U 1 1 528792AA
+P 1450 5850
+F 0 "JP2" H 1450 5800 50  0000 C CNN
+F 1 "BREAKER" H 1450 5700 50  0000 C CNN
+	1    1450 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L BREAKER JP3
+U 1 1 52879258
+P 4550 5850
+F 0 "JP3" H 4550 5800 50  0000 C CNN
+F 1 "BREAKER" H 4550 5700 50  0000 C CNN
+	1    4550 5850
+	1    0    0    -1  
+$EndComp
+Text Notes 750  6550 0    60   ~ 0
+NOTE1: Cut JP2 if powering 5-20V from Base Board.\nNOTE2: Cut JP3 if powering 3.3V from Base Board.
+Text Notes 650  4800 0    60   ~ 0
+To USB port and to\nMCU's VBUS sense pin
+$Comp
+L C C12
+U 1 1 5284E8B2
+P 4050 6050
+F 0 "C12" H 4100 6150 50  0000 L CNN
+F 1 "2.2uF" H 4100 5950 50  0000 L CNN
+	1    4050 6050
+	1    0    0    -1  
+$EndComp
+Text Notes 2100 5250 0    60   ~ 0
+To(/from)\nBase Board
+Text Notes 4900 5000 0    60   ~ 0
+To(/from)\nBase Board
+Text Notes 5400 5250 0    60   ~ 0
+To MCU
+Text Notes 7700 2350 0    60   ~ 0
+User LED
 $Comp
 L R R5
 U 1 1 527E766F
-P 6250 5850
-F 0 "R5" V 6330 5850 50  0000 C CNN
-F 1 "R" V 6250 5850 50  0000 C CNN
-	1    6250 5850
+P 7900 3100
+F 0 "R5" V 7980 3100 50  0000 C CNN
+F 1 "R" V 7900 3100 50  0000 C CNN
+	1    7900 3100
 	1    0    0    -1  
 $EndComp
-Text Label 6250 5400 1    50   ~ 0
+Text Label 7900 2650 1    50   ~ 0
 PC3
 $Comp
 L GND #PWR01
 U 1 1 527E7524
-P 6250 6850
-F 0 "#PWR01" H 6250 6850 30  0001 C CNN
-F 1 "GND" H 6250 6780 30  0001 C CNN
-	1    6250 6850
+P 7900 4100
+F 0 "#PWR01" H 7900 4100 30  0001 C CNN
+F 1 "GND" H 7900 4030 30  0001 C CNN
+	1    7900 4100
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D2
 U 1 1 527E7516
-P 6250 6450
-F 0 "D2" H 6250 6550 50  0000 C CNN
-F 1 "LED" H 6250 6350 50  0000 C CNN
-	1    6250 6450
+P 7900 3700
+F 0 "D2" H 7900 3800 50  0000 C CNN
+F 1 "LED" H 7900 3600 50  0000 C CNN
+	1    7900 3700
 	0    1    1    0   
 $EndComp
-Text GLabel 4100 5450 1    60   Input ~ 0
+Text GLabel 5150 5500 1    50   Input ~ 0
 PWR_3V
-$Comp
-L FET_P Q2
-U 1 1 527BACD9
-P 4550 5850
-F 0 "Q2" H 4453 6100 70  0000 C CNN
-F 1 "FET_P" H 4403 5603 60  0000 C CNN
-	1    4550 5850
-	0    -1   -1   0   
-$EndComp
-Text GLabel 2050 5450 1    60   Input ~ 0
+Text GLabel 2000 5500 1    50   Input ~ 0
 PWR_5V
-$Comp
-L FET_P Q1
-U 1 1 527BAC3B
-P 1650 5850
-F 0 "Q1" H 1553 6100 70  0000 C CNN
-F 1 "FET_P" H 1503 5603 60  0000 C CNN
-	1    1650 5850
-	0    -1   -1   0   
-$EndComp
 $Comp
 L GND #PWR02
 U 1 1 5273C030
@@ -370,17 +391,6 @@ P 10200 6150
 F 0 "J1" H 10250 6450 50  0000 C CNN
 F 1 "USB_MICRO" V 10300 6150 40  0000 C CNN
 	1    10200 6150
-	1    0    0    -1  
-$EndComp
-Text Notes 3050 6400 0    60   ~ 0
-C12: optional.\nUse 0 ohm for TLV702 and\nan actual capacitor for TPS73633.
-$Comp
-L C C12
-U 1 1 526B936E
-P 3600 6050
-F 0 "C12" H 3650 6150 50  0000 L CNN
-F 1 "C" H 3650 5950 50  0000 L CNN
-	1    3600 6050
 	1    0    0    -1  
 $EndComp
 Text GLabel 9500 1450 1    60   Input ~ 0
@@ -607,48 +617,30 @@ F 1 "R" V 9700 6050 50  0000 C CNN
 $EndComp
 Text Notes 9400 5550 0    50   ~ 0
 USB connector
-Text Notes 2650 5150 0    50   ~ 0
+Text Notes 2800 4800 0    60   ~ 0
 Power regulation
 $Comp
 L C C11
 U 1 1 52680B5F
-P 2250 6050
-F 0 "C11" H 2300 6150 50  0000 L CNN
-F 1 "1uF" H 2300 5950 50  0000 L CNN
-	1    2250 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C13
-U 1 1 52680B5C
-P 3950 5900
-F 0 "C13" H 4000 6000 50  0000 L CNN
-F 1 "1uF" H 4000 5800 50  0000 L CNN
-	1    3950 5900
+P 2350 6050
+F 0 "C11" H 2400 6150 50  0000 L CNN
+F 1 "1uF" H 2400 5950 50  0000 L CNN
+	1    2350 6050
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR011
 U 1 1 52680AD1
-P 2900 6400
-F 0 "#PWR011" H 2900 6400 30  0001 C CNN
-F 1 "GND" H 2900 6330 30  0001 C CNN
-	1    2900 6400
+P 3200 6350
+F 0 "#PWR011" H 3200 6350 30  0001 C CNN
+F 1 "GND" H 3200 6280 30  0001 C CNN
+	1    3200 6350
 	1    0    0    -1  
 $EndComp
-Text GLabel 1300 5700 0    50   Input ~ 0
+Text GLabel 950  5500 1    50   Input ~ 0
 OTG_FS_VBUS
-Text GLabel 4900 5700 2    50   Input ~ 0
+Text GLabel 5450 5500 1    50   Input ~ 0
 VDD
-$Comp
-L TPS769XX U2
-U 1 1 52680A9F
-P 2900 5850
-F 0 "U2" H 3050 6150 60  0000 C CNN
-F 1 "TPS769XX" H 3200 5650 60  0000 C CNN
-	1    2900 5850
-	1    0    0    -1  
-$EndComp
 $Comp
 L GND #PWR012
 U 1 1 52680931
@@ -692,7 +684,7 @@ F 1 "CONN_12X2" V 6600 1600 50  0000 C CNN
 $EndComp
 Text Notes 8300 650  0    50   ~ 0
 Reset switch\n(use SWD connector)
-Text Notes 1900 7000 2    50   ~ 0
+Text Notes 7450 5900 2    50   ~ 0
 Decoupling capasitors
 $Comp
 L GND #PWR013
@@ -820,86 +812,86 @@ Text GLabel 3450 2750 2    50   Input ~ 0
 VDD
 Text GLabel 3450 4350 2    50   Input ~ 0
 VDD
-Text GLabel 2200 7050 1    50   Input ~ 0
+Text GLabel 7750 5950 1    50   Input ~ 0
 VDD
 $Comp
 L C C10
 U 1 1 5267FB31
-P 2200 7350
-F 0 "C10" H 2250 7450 50  0000 L CNN
-F 1 "100nF" H 2250 7250 40  0000 L CNN
-	1    2200 7350
+P 7750 6250
+F 0 "C10" H 7800 6350 50  0000 L CNN
+F 1 "100nF" H 7800 6150 40  0000 L CNN
+	1    7750 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C9
 U 1 1 5267FB2F
-P 1950 7350
-F 0 "C9" H 2000 7450 50  0000 L CNN
-F 1 "100nF" H 2000 7250 40  0000 L CNN
-	1    1950 7350
+P 7500 6250
+F 0 "C9" H 7550 6350 50  0000 L CNN
+F 1 "100nF" H 7550 6150 40  0000 L CNN
+	1    7500 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C8
 U 1 1 5267FB00
-P 1700 7350
-F 0 "C8" H 1750 7450 50  0000 L CNN
-F 1 "100nF" H 1750 7250 40  0000 L CNN
-	1    1700 7350
+P 7250 6250
+F 0 "C8" H 7300 6350 50  0000 L CNN
+F 1 "100nF" H 7300 6150 40  0000 L CNN
+	1    7250 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C7
 U 1 1 5267FAF4
-P 1450 7350
-F 0 "C7" H 1500 7450 50  0000 L CNN
-F 1 "100nF" H 1500 7250 40  0000 L CNN
-	1    1450 7350
+P 7000 6250
+F 0 "C7" H 7050 6350 50  0000 L CNN
+F 1 "100nF" H 7050 6150 40  0000 L CNN
+	1    7000 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C6
 U 1 1 5267FAEA
-P 1200 7350
-F 0 "C6" H 1250 7450 50  0000 L CNN
-F 1 "100nF" H 1250 7250 40  0000 L CNN
-	1    1200 7350
+P 6750 6250
+F 0 "C6" H 6800 6350 50  0000 L CNN
+F 1 "100nF" H 6800 6150 40  0000 L CNN
+	1    6750 6250
 	1    0    0    -1  
 $EndComp
 Text GLabel 3450 2650 2    50   Input ~ 0
 VCAP_2
-Text GLabel 900  7150 1    50   Input ~ 0
+Text GLabel 6450 6050 1    50   Input ~ 0
 VCAP_2
-Text GLabel 650  7150 1    50   Input ~ 0
+Text GLabel 6200 6050 1    50   Input ~ 0
 VCAP_1
 Text GLabel 1650 4250 0    50   Input ~ 0
 VCAP_1
 $Comp
 L GND #PWR019
 U 1 1 5267F980
-P 650 7650
-F 0 "#PWR019" H 650 7650 30  0001 C CNN
-F 1 "GND" H 650 7580 30  0001 C CNN
-	1    650  7650
+P 6200 6550
+F 0 "#PWR019" H 6200 6550 30  0001 C CNN
+F 1 "GND" H 6200 6480 30  0001 C CNN
+	1    6200 6550
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C3
 U 1 1 5267F961
-P 900 7350
-F 0 "C3" H 950 7450 50  0000 L CNN
-F 1 "2.2nF" H 950 7250 40  0000 L CNN
-	1    900  7350
+P 6450 6250
+F 0 "C3" H 6500 6350 50  0000 L CNN
+F 1 "2.2nF" H 6500 6150 40  0000 L CNN
+	1    6450 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C2
 U 1 1 5267F959
-P 650 7350
-F 0 "C2" H 700 7450 50  0000 L CNN
-F 1 "2.2nF" H 700 7250 40  0000 L CNN
-	1    650  7350
+P 6200 6250
+F 0 "C2" H 6250 6350 50  0000 L CNN
+F 1 "2.2nF" H 6250 6150 40  0000 L CNN
+	1    6200 6250
 	1    0    0    -1  
 $EndComp
 $Comp
