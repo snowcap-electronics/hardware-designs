@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="component-layout.pdf">
+   sodipodi:docname="component-layout.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -27,7 +27,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1"
      inkscape:cx="497.30314"
-     inkscape:cy="444.97456"
+     inkscape:cy="564.97456"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -508,14 +508,14 @@
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-       x="195.5042"
-       y="693.79913"
+       x="200.5042"
+       y="691.79913"
        id="text4069"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4071"
-         x="195.5042"
-         y="693.79913">Regulator</tspan></text>
+         x="200.5042"
+         y="691.79913">LM2937</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
@@ -560,7 +560,7 @@
          sodipodi:role="line"
          x="255.62605"
          y="549.03864"
-         id="tspan4089">2.2uF</tspan></text>
+         id="tspan4089">10uF</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
@@ -597,7 +597,7 @@
          sodipodi:role="line"
          x="227"
          y="609.36218"
-         id="tspan4103">1uF</tspan></text>
+         id="tspan4103">0.1uF</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
