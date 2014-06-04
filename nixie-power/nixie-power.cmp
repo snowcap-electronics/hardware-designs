@@ -1,0 +1,129 @@
+Cmp-Mod V01 Created by CvPcb (2013-dec-23)-stable date = Wed 04 Jun 2014 06:10:05 PM EEST
+
+BeginCmp
+TimeStamp = /53839058;
+Reference = C1;
+ValeurCmp = 100uF;
+IdModule  = SM2917;
+EndCmp
+
+BeginCmp
+TimeStamp = /538390A1;
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53839074;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /538392BE;
+Reference = C4;
+ValeurCmp = 4u7, 250V;
+IdModule  = SMDSVP10;
+EndCmp
+
+BeginCmp
+TimeStamp = /5383905E;
+Reference = C5;
+ValeurCmp = 10uF;
+IdModule  = SM2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /53839317;
+Reference = C6;
+ValeurCmp = 100nF, 250V;
+IdModule  = SM2420_fc1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5387102E;
+Reference = CON1;
+ValeurCmp = BARREL_JACK;
+IdModule  = BARREL_JACK-PJ-002AH;
+EndCmp
+
+BeginCmp
+TimeStamp = /538392A9;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = DO214;
+EndCmp
+
+BeginCmp
+TimeStamp = /53839242;
+Reference = L1;
+ValeurCmp = 100uH;
+IdModule  = UNI-PAC4B;
+EndCmp
+
+BeginCmp
+TimeStamp = /53849E5F;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53849CF4;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /538F3488;
+Reference = P3;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53839160;
+Reference = Q1;
+ValeurCmp = MOSFET_N;
+IdModule  = TO220_VERT_GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53839350;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5383934E;
+Reference = R2;
+ValeurCmp = 1M5;
+IdModule  = SM2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /5383919E;
+Reference = RS1;
+ValeurCmp = 0R050;
+IdModule  = SM2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /53838E8C;
+Reference = U1;
+ValeurCmp = MAX1771;
+IdModule  = SOIC-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /538393E4;
+Reference = VR1;
+ValeurCmp = 5K;
+IdModule  = 3314S-TRIMPOT;
+EndCmp
+
+EndListe
