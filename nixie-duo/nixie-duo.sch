@@ -30,13 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:snowcap
+LIBS:nixie-duo-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "29 may 2014"
+Date "12 jun 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -214,4 +215,50 @@ Wire Wire Line
 	5800 3900 5800 3300
 Wire Wire Line
 	5800 3300 5750 3300
+$Comp
+L CONN_1 P1
+U 1 1 5399ED83
+P 7000 1200
+F 0 "P1" H 7080 1200 40  0000 L CNN
+F 1 "CONN_1" H 7000 1255 30  0001 C CNN
+F 2 "" H 7000 1200 60  0000 C CNN
+F 3 "" H 7000 1200 60  0000 C CNN
+	1    7000 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P2
+U 1 1 5399ED92
+P 7000 1300
+F 0 "P2" H 7080 1300 40  0000 L CNN
+F 1 "CONN_1" H 7000 1355 30  0001 C CNN
+F 2 "" H 7000 1300 60  0000 C CNN
+F 3 "" H 7000 1300 60  0000 C CNN
+	1    7000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P3
+U 1 1 5399EDA1
+P 7000 1400
+F 0 "P3" H 7080 1400 40  0000 L CNN
+F 1 "CONN_1" H 7000 1455 30  0001 C CNN
+F 2 "" H 7000 1400 60  0000 C CNN
+F 3 "" H 7000 1400 60  0000 C CNN
+	1    7000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P4
+U 1 1 5399EDB0
+P 7000 1500
+F 0 "P4" H 7080 1500 40  0000 L CNN
+F 1 "CONN_1" H 7000 1555 30  0001 C CNN
+F 2 "" H 7000 1500 60  0000 C CNN
+F 3 "" H 7000 1500 60  0000 C CNN
+	1    7000 1500
+	1    0    0    -1  
+$EndComp
+Text Notes 6600 1100 0    60   ~ 0
+Mounting holes
 $EndSCHEMATC
