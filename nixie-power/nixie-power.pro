@@ -1,37 +1,6 @@
-update=Mon 02 Jun 2014 06:46:14 PM EEST
+update=Thu 12 Jun 2014 05:34:36 PM EEST
 version=1
-last_client=cvpcb
-[pcbnew]
-version=1
-PadDrlX=320
-PadDimH=600
-PadDimV=600
-BoardThickness=630
-TxtPcbV=800
-TxtPcbH=600
-TxtModV=600
-TxtModH=600
-TxtModW=120
-VEgarde=100
-DrawLar=150
-EdgeLar=150
-TxtLar=120
-MSegLar=150
-LastNetListRead=
-[pcbnew/libraries]
-LibName1=sockets
-LibName2=connect
-LibName3=discret
-LibName4=pin_array
-LibName5=divers
-LibName6=libcms
-LibName7=display
-LibName8=led
-LibName9=dip_sockets
-LibName10=pga_sockets
-LibName11=valves
-LibName12=snowcap
-LibDir=../kicad
+last_client=pcbnew
 [general]
 version=1
 [eeschema]
@@ -79,3 +48,37 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[pcbnew]
+version=1
+LastNetListRead=
+UseCmpFile=1
+PadDrill="    0.000000"
+PadDrillOvalY="    0.000000"
+PadSizeH="    4.300000"
+PadSizeV="   12.000000"
+PcbTextSizeV="    1.500000"
+PcbTextSizeH="    1.500000"
+PcbTextThickness="    0.300000"
+ModuleTextSizeV="    1.500000"
+ModuleTextSizeH="    1.500000"
+ModuleTextSizeThickness="    0.150000"
+SolderMaskClearance="    0.200000"
+SolderMaskMinWidth="    0.000000"
+DrawSegmentWidth="    0.200000"
+BoardOutlineThickness="    0.150000"
+ModuleOutlineThickness="    0.150000"
+[pcbnew/libraries]
+LibDir=../kicad
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=libcms
+LibName7=display
+LibName8=led
+LibName9=dip_sockets
+LibName10=pga_sockets
+LibName11=valves
+LibName12=snowcap
+LibName13=smd_capacitors

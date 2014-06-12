@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-dec-23)-stable date = Wed 04 Jun 2014 06:10:05 PM EEST
+Cmp-Mod V01 Created by CvPcb (2013-dec-23)-stable date = Thu 12 Jun 2014 07:34:38 PM EEST
 
 BeginCmp
 TimeStamp = /53839058;
@@ -25,7 +25,7 @@ BeginCmp
 TimeStamp = /538392BE;
 Reference = C4;
 ValeurCmp = 4u7, 250V;
-IdModule  = SMDSVP10;
+IdModule  = c_elec_13.5x13.8;
 EndCmp
 
 BeginCmp
@@ -82,6 +82,34 @@ TimeStamp = /538F3488;
 Reference = P3;
 ValeurCmp = CONN_3;
 IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5399D650;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /5399D65F;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /5399D66E;
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /5399D67D;
+Reference = P7;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
 EndCmp
 
 BeginCmp
