@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = ke 10. heinäkuuta 2013 17.56.03
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = to 10. heinäkuuta 2014 16.42.15
 
 BeginCmp
 TimeStamp = /51DD1743;
@@ -36,10 +36,10 @@ IdModule  = LED-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /51DD18F8;
+TimeStamp = /53BE972F;
 Reference = J1;
-ValeurCmp = USB_MINI;
-IdModule  = USB-MINI-B;
+ValeurCmp = USB_MICRO;
+IdModule  = USB_MICRO_10118194-0001LF;
 EndCmp
 
 BeginCmp
