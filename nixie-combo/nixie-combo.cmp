@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-dec-23)-stable date = Sat 14 Jun 2014 02:20:02 PM EEST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = to 10. heinäkuuta 2014 10.50.38
 
 BeginCmp
 TimeStamp = /5386DD06;
@@ -32,28 +32,28 @@ BeginCmp
 TimeStamp = /539C14B6;
 Reference = N1;
 ValeurCmp = IN-12A;
-IdModule  = IN-12A;
+IdModule  = IN-12A-SOCKET;
 EndCmp
 
 BeginCmp
 TimeStamp = /539C14C5;
 Reference = N2;
 ValeurCmp = IN-12A;
-IdModule  = IN-12A;
+IdModule  = IN-12A-SOCKET;
 EndCmp
 
 BeginCmp
 TimeStamp = /539C172F;
 Reference = N3;
 ValeurCmp = IN-12A;
-IdModule  = IN-12A;
+IdModule  = IN-12A-SOCKET;
 EndCmp
 
 BeginCmp
 TimeStamp = /539C174E;
 Reference = N4;
 ValeurCmp = IN-12A;
-IdModule  = IN-12A;
+IdModule  = IN-12A-SOCKET;
 EndCmp
 
 BeginCmp
