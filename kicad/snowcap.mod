@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  to 10. heinäkuuta 2014 10.49.49
+PCBNEW-LibModule-V1  to 10. heinäkuuta 2014 18.51.58
 # encoding utf-8
 Units mm
 $INDEX
@@ -900,12 +900,12 @@ Po 0 0
 $EndPAD
 $EndMODULE IN-12A
 $MODULE IN-12A-SOCKET
-Po 0 0 0 15 53BE4576 00000000 ~~
+Po 0 0 0 15 53BEB699 00000000 ~~
 Li IN-12A-SOCKET
 Sc 0
 AR 
 Op 0 0 0
-T0 0 -11.43 1 1 0 0.15 N V 21 N "IN-12A-SOCKET"
+T0 0 -12.7 1 1 0 0.15 N V 21 N "IN-12A-SOCKET"
 T1 0 5 1 1 0 0.15 N V 21 N "VAL**"
 DC 6.35 -16 8 -16 0.15 21
 DC -6.35 16 -7.9 16 0.15 21
@@ -925,84 +925,84 @@ DA 0 -1 11 10 900 0.15 21
 DA 0 1 -11 -10 900 0.15 21
 $PAD
 Sh "3" C 3 3 0 0 0
-Dr 2.2 0 0
+Dr 2.3 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 6.475 0
 $EndPAD
 $PAD
 Sh "2" C 3 3 0 0 0
-Dr 2.2 0 0
+Dr 2.3 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 6.475 5
 $EndPAD
 $PAD
 Sh "1" C 3 3 0 0 0
-Dr 2.2 0 0
+Dr 2.3 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 4.3 8.7
 $EndPAD
 $PAD
 Sh "12" C 3 3 0 0 0
-Dr 2.2 0 0
+Dr 2.3 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 0 9.55
 $EndPAD
 $PAD
 Sh "11" C 3 3 0 0 0
-Dr 2.2 0 0
+Dr 2.3 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -4.3 8.7
 $EndPAD
 $PAD
 Sh "10" C 3 3 0 0 0
-Dr 2.2 0 0
+Dr 2.3 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -6.475 5
 $EndPAD
 $PAD
 Sh "9" C 3 3 0 0 0
-Dr 2.2 0 0
+Dr 2.3 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -6.475 0
 $EndPAD
 $PAD
 Sh "8" C 3 3 0 0 0
-Dr 2.2 0 0
+Dr 2.3 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -6.475 -5
 $EndPAD
 $PAD
 Sh "7" C 3 3 0 0 0
-Dr 2.2 0 0
+Dr 2.3 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -4.3 -8.7
 $EndPAD
 $PAD
 Sh "6" C 3 3 0 0 0
-Dr 2.2 0 0
+Dr 2.3 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 0 -9.55
 $EndPAD
 $PAD
 Sh "5" C 3 3 0 0 0
-Dr 2.2 0 0
+Dr 2.3 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 4.3 -8.7
 $EndPAD
 $PAD
 Sh "4" C 3 3 0 0 0
-Dr 2.2 0 0
+Dr 2.3 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 6.475 -5
