@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = to 10. heinäkuuta 2014 16.42.15
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = ma 14. heinäkuuta 2014 13.00.03
 
 BeginCmp
 TimeStamp = /51DD1743;
@@ -40,6 +40,13 @@ TimeStamp = /53BE972F;
 Reference = J1;
 ValeurCmp = USB_MICRO;
 IdModule  = USB_MICRO_10118194-0001LF;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C399D4;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
