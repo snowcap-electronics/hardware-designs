@@ -1,0 +1,94 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = ma 14. heinäkuuta 2014 17.54.43
+
+BeginCmp
+TimeStamp = /53C3E605;
+Reference = C1;
+ValeurCmp = 100uF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C3E62B;
+Reference = C2;
+ValeurCmp = 1uF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C3E69E;
+Reference = C3;
+ValeurCmp = 4.7uF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C3E740;
+Reference = C4;
+ValeurCmp = 10uF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C3E8A4;
+Reference = C5;
+ValeurCmp = 3F;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C3E57D;
+Reference = D1;
+ValeurCmp = DIODESCH;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C3E7E4;
+Reference = L1;
+ValeurCmp = 10uH;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C3E558;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C3E518;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C3E922;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C3E9C5;
+Reference = P4;
+ValeurCmp = CONN_2;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C3E509;
+Reference = R1;
+ValeurCmp = 300R;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C3E4FA;
+Reference = U1;
+ValeurCmp = LTC3588-1;
+IdModule  = ;
+EndCmp
+
+EndListe
