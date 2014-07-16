@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = ti 15. heinäkuuta 2014 19.21.26
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = ke 16. heinäkuuta 2014 20.50.44
 
 BeginCmp
 TimeStamp = /53C3E605;
@@ -31,7 +31,14 @@ EndCmp
 BeginCmp
 TimeStamp = /53C3E8A4;
 Reference = C5;
-ValeurCmp = 3F;
+ValeurCmp = SUPERCAP;
+IdModule  = SUPERCAP_ESHSR-0010C0-002R7;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C6BB4A;
+Reference = C6;
+ValeurCmp = SUPERCAP;
 IdModule  = SUPERCAP_ESHSR-0010C0-002R7;
 EndCmp
 
