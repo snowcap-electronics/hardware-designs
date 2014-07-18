@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = ke 16. heinäkuuta 2014 20.50.44
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = to 17. heinäkuuta 2014 17.18.43
 
 BeginCmp
 TimeStamp = /53C3E605;
@@ -25,7 +25,7 @@ BeginCmp
 TimeStamp = /53C3E740;
 Reference = C4;
 ValeurCmp = 10uF;
-IdModule  = SM1206POL;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
@@ -46,7 +46,7 @@ BeginCmp
 TimeStamp = /53C3E57D;
 Reference = D1;
 ValeurCmp = DIODESCH;
-IdModule  = SM1206POL;
+IdModule  = DIODE-1206;
 EndCmp
 
 BeginCmp
