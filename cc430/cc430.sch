@@ -30,14 +30,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:cc430-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "1 dec 2014"
+Date "5 dec 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -898,4 +897,47 @@ F 3 "" H 10700 4400 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	10700 4150 10700 4400
+$Comp
+L LED D1
+U 1 1 5481515A
+P 5400 1200
+F 0 "D1" H 5400 1300 50  0000 C CNN
+F 1 "LED" H 5400 1100 50  0000 C CNN
+F 2 "~" H 5400 1200 60  0000 C CNN
+F 3 "~" H 5400 1200 60  0000 C CNN
+	1    5400 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L +3.3V #PWR023
+U 1 1 54815195
+P 5400 900
+F 0 "#PWR023" H 5400 860 30  0001 C CNN
+F 1 "+3.3V" H 5400 1010 30  0000 C CNN
+F 2 "" H 5400 900 60  0000 C CNN
+F 3 "" H 5400 900 60  0000 C CNN
+	1    5400 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 900  5400 1000
+$Comp
+L R R5
+U 1 1 5481540C
+P 5400 1750
+F 0 "R5" V 5480 1750 40  0000 C CNN
+F 1 "220R" V 5407 1751 40  0000 C CNN
+F 2 "~" V 5330 1750 30  0000 C CNN
+F 3 "~" H 5400 1750 30  0000 C CNN
+	1    5400 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 2650 4850 2250
+Wire Wire Line
+	4850 2250 5400 2250
+Wire Wire Line
+	5400 2250 5400 2000
+Wire Wire Line
+	5400 1500 5400 1400
 $EndSCHEMATC
