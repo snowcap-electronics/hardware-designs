@@ -1,0 +1,173 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:snowcap
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "17 dec 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R2
+U 1 1 549129D5
+P 6650 3400
+F 0 "R2" V 6730 3400 40  0000 C CNN
+F 1 "R" V 6657 3401 40  0000 C CNN
+F 2 "~" V 6580 3400 30  0000 C CNN
+F 3 "~" H 6650 3400 30  0000 C CNN
+	1    6650 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 549129D6
+P 4150 3400
+F 0 "R1" V 4230 3400 40  0000 C CNN
+F 1 "R" V 4157 3401 40  0000 C CNN
+F 2 "~" V 4080 3400 30  0000 C CNN
+F 3 "~" H 4150 3400 30  0000 C CNN
+	1    4150 3400
+	0    1    1    0   
+$EndComp
+NoConn ~ 7100 3500
+NoConn ~ 7100 3600
+NoConn ~ 7100 3700
+$Comp
+L NPN Q1
+U 1 1 54912AB1
+P 4800 3700
+F 0 "Q1" H 4800 3550 50  0000 R CNN
+F 1 "NPN" H 4800 3850 50  0000 R CNN
+F 2 "~" H 4800 3700 60  0000 C CNN
+F 3 "~" H 4800 3700 60  0000 C CNN
+	1    4800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN Q2
+U 1 1 54912AC0
+P 6000 3700
+F 0 "Q2" H 6000 3550 50  0000 R CNN
+F 1 "NPN" H 6000 3850 50  0000 R CNN
+F 2 "~" H 6000 3700 60  0000 C CNN
+F 3 "~" H 6000 3700 60  0000 C CNN
+	1    6000 3700
+	-1   0    0    1   
+$EndComp
+NoConn ~ 3750 3500
+Wire Wire Line
+	3750 3400 3900 3400
+Wire Wire Line
+	6900 3400 7100 3400
+Wire Wire Line
+	4400 3400 4500 3400
+Wire Wire Line
+	4500 3400 4500 3700
+Wire Wire Line
+	4500 3700 4600 3700
+Wire Wire Line
+	6400 3400 6300 3400
+Wire Wire Line
+	6300 3400 6300 3700
+Wire Wire Line
+	6300 3700 6200 3700
+Wire Wire Line
+	4150 3600 4150 4000
+Wire Wire Line
+	4150 4000 5600 4000
+Wire Wire Line
+	5450 4000 5450 3500
+Wire Wire Line
+	5900 3500 5600 3500
+Wire Wire Line
+	5600 3500 5600 4000
+Connection ~ 5450 4000
+Wire Wire Line
+	4900 3900 4900 4000
+Connection ~ 4900 4000
+Wire Wire Line
+	4900 3500 5050 3500
+Wire Wire Line
+	5050 3500 5050 3850
+Wire Wire Line
+	5050 3850 5250 3850
+Wire Wire Line
+	5250 3850 5250 3500
+Wire Wire Line
+	5900 3900 5350 3900
+Wire Wire Line
+	5350 3900 5350 3500
+$Comp
+L CONN_4 P1
+U 1 1 5491E68B
+P 3400 3550
+F 0 "P1" V 3350 3550 50  0000 C CNN
+F 1 "CONN_4" V 3450 3550 50  0000 C CNN
+F 2 "" H 3400 3550 60  0000 C CNN
+F 3 "" H 3400 3550 60  0000 C CNN
+	1    3400 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_4 P2
+U 1 1 5491E69A
+P 7450 3550
+F 0 "P2" V 7400 3550 50  0000 C CNN
+F 1 "CONN_4" V 7500 3550 50  0000 C CNN
+F 2 "" H 7450 3550 60  0000 C CNN
+F 3 "" H 7450 3550 60  0000 C CNN
+	1    7450 3550
+	1    0    0    1   
+$EndComp
+$Comp
+L BARREL_JACK CON1
+U 1 1 5491E788
+P 5350 3200
+F 0 "CON1" H 5350 3450 60  0000 C CNN
+F 1 "BARREL_JACK" H 5350 3000 60  0000 C CNN
+F 2 "" H 5350 3200 60  0000 C CNN
+F 3 "" H 5350 3200 60  0000 C CNN
+	1    5350 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 3600 3750 3600
+NoConn ~ 3750 3700
+$EndSCHEMATC

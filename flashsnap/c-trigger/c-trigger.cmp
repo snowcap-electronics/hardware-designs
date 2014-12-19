@@ -1,0 +1,52 @@
+Cmp-Mod V01 Created by PcbNew date = Fri 19 Dec 2014 09:34:10 AM EET
+
+BeginCmp
+TimeStamp = /5491E788;
+Reference = CON1;
+ValeurCmp = BARREL_JACK;
+IdModule  = SJ2.5PC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5491E68B;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5491E69A;
+Reference = P2;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /54912AB1;
+Reference = Q1;
+ValeurCmp = NPN;
+IdModule  = TO92PN-LARGE;
+EndCmp
+
+BeginCmp
+TimeStamp = /54912AC0;
+Reference = Q2;
+ValeurCmp = NPN;
+IdModule  = TO92PN-LARGE;
+EndCmp
+
+BeginCmp
+TimeStamp = /549129D6;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /549129D5;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+EndListe

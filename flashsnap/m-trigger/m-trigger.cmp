@@ -1,0 +1,45 @@
+Cmp-Mod V01 Created by PcbNew date = Fri 19 Dec 2014 09:29:53 AM EET
+
+BeginCmp
+TimeStamp = /5491E0C0;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /5491E0EA;
+Reference = P2;
+ValeurCmp = CONN_6;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /54858A90;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54858A9F;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54858A72;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = SW_PUSH_6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54858A81;
+Reference = SW2;
+ValeurCmp = DUAL_SWITCH_INV;
+IdModule  = SLIDE_SWITCH;
+EndCmp
+
+EndListe
