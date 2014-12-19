@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Mon 08 Dec 2014 01:11:01 PM EET
+PCBNEW-BOARD Version 2 date Fri 19 Dec 2014 12:54:20 PM EET
 
 # Created by Pcbnew(22-Jun-2014 BZR 4027)-stable
 
@@ -7,12 +7,12 @@ encoding utf-8
 Units mm
 LayerCount 2
 EnabledLayers 1FFF8001
-VisibleLayers 10F08001
+VisibleLayers 00108000
 Links 96
-NoConn 3
+NoConn 2
 Di 49.144626 20.4724 78.27772 80.6196
 Ndraw 8
-Ntrack 371
+Ntrack 374
 Nzone 0
 BoardThickness 1.6002
 Nmodule 32
@@ -22,7 +22,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11693 8268
 Title ""
-Date "8 dec 2014"
+Date "19 dec 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -63,7 +63,7 @@ Pad2MaskClearance 0.254
 SolderMaskMinWidth 0
 AuxiliaryAxisOrg 0 0
 VisibleElements FFFFFFBF
-PcbPlotParams (pcbplotparams (layerselection 284196865) (usegerberextensions true) (excludeedgelayer false) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference false) (plotvalue false) (plotothertext false) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory gerber/))
+PcbPlotParams (pcbplotparams (layerselection 284983297) (usegerberextensions true) (excludeedgelayer false) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference false) (plotvalue false) (plotothertext false) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory gerbers/))
 $EndSETUP
 
 $EQUIPOT
@@ -3481,6 +3481,10 @@ Po 0 77.39888 34.69894 77.39888 59.40044 0.09906
 De 28 0 900 0 0
 $EndDRAWSEGMENT
 $TRACK
+Po 0 60.65012 46.14164 60.87364 46.14164 0.3048 -1
+De 15 0 1 0 C00000
+Po 0 60.87364 46.14164 61.37402 46.64202 0.3048 -1
+De 15 0 1 549403B4 400000
 Po 0 65.479 53.086 64.04864 53.086 0.3048 -1
 De 15 0 1 0 0
 Po 0 62.357 49.403 62.357 48.133 0.3048 -1
@@ -3499,8 +3503,10 @@ Po 0 63.95466 48.11014 63.9318 48.133 0.3048 -1
 De 15 0 1 54818E8E 0
 Po 0 63.9318 48.133 62.357 48.133 0.3048 -1
 De 15 0 1 54818E8F 0
-Po 0 60.65012 46.64202 61.50102 46.64202 0.3048 -1
+Po 0 60.65012 46.64202 61.37402 46.64202 0.3048 -1
 De 15 0 1 0 0
+Po 0 61.37402 46.64202 61.50102 46.64202 0.3048 -1
+De 15 0 1 549403C5 0
 Po 0 62.357 47.498 62.357 48.133 0.3048 -1
 De 15 0 1 54818E7C 0
 Po 0 61.50102 46.64202 62.357 47.498 0.3048 -1
@@ -5447,10 +5453,8 @@ $POLYSCORNERS
 62.698246 47.156747 0 0
 61.84227 46.30077 0 0
 61.685703 46.196156 0 0
-61.50102 46.15942 0 0
-61.388549 46.15942 0 0
-61.392086 46.14164 0 0
-61.378949 46.0756 0 0
+61.592021 46.177521 0 0
+61.4901 46.0756 0 0
 61.619342 46.0756 0 0
 62.158668 46.614925 0 0
 62.158671 46.614929 0 0
