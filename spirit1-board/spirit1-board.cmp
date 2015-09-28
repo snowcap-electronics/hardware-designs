@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Mon 28 Sep 2015 09:13:11 PM EEST
+
+BeginCmp
+TimeStamp = /56081493;
+Reference = C0;
+ValeurCmp = 100nF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /560814B1;
+Reference = C9;
+ValeurCmp = 12pF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /560814C0;
+Reference = C10;
+ValeurCmp = 10pF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /56081484;
+Reference = C11;
+ValeurCmp = 1uF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /56081475;
+Reference = C12;
+ValeurCmp = 100nF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /56081466;
+Reference = C13;
+ValeurCmp = 330pF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /56097560;
+Reference = CN1;
+ValeurCmp = RB-CN10;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /56081457;
+Reference = CN2;
+ValeurCmp = ANT;
+IdModule  = RF_SMA;
+EndCmp
+
+BeginCmp
+TimeStamp = /560814A2;
+Reference = CX1;
+ValeurCmp = C;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /56081506;
+Reference = L0;
+ValeurCmp = 150nH;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /560814E8;
+Reference = L7;
+ValeurCmp = 10uH;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /560814F7;
+Reference = L8;
+ValeurCmp = 100nH;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /560814CF;
+Reference = R0;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /560810DF;
+Reference = U1;
+ValeurCmp = SPIRIT1;
+IdModule  = SPIRIT1_QFN20;
+EndCmp
+
+BeginCmp
+TimeStamp = /5608142A;
+Reference = U2;
+ValeurCmp = BALF-SPI-02D3;
+IdModule  = BALF_SPI_02D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /56081515;
+Reference = X1;
+ValeurCmp = 50Mhz;
+IdModule  = CRYSTAL-ABM3B;
+EndCmp
+
+EndListe
