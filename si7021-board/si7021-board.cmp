@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Sun 18 Oct 2015 03:21:38 PM EEST
+
+BeginCmp
+TimeStamp = /56238BF4;
+Reference = 0.1uF1;
+ValeurCmp = C;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /56238BDB;
+Reference = 10k1;
+ValeurCmp = R;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /56238BCC;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5623890D;
+Reference = U1;
+ValeurCmp = SHIELD_I2C;
+IdModule  = SHIELD_I2C;
+EndCmp
+
+BeginCmp
+TimeStamp = /56238BBD;
+Reference = U2;
+ValeurCmp = SI7021;
+IdModule  = SI7021;
+EndCmp
+
+EndListe
