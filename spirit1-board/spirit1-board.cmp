@@ -1,52 +1,52 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Mon 28 Sep 2015 09:13:11 PM EEST
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Sun 18 Oct 2015 01:23:17 PM EEST
 
 BeginCmp
 TimeStamp = /56081493;
 Reference = C0;
 ValeurCmp = 100nF;
-IdModule  = c_0603;
+IdModule  = SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /560814B1;
 Reference = C9;
 ValeurCmp = 12pF;
-IdModule  = c_0603;
+IdModule  = SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /560814C0;
 Reference = C10;
 ValeurCmp = 10pF;
-IdModule  = c_0603;
+IdModule  = SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /56081484;
 Reference = C11;
 ValeurCmp = 1uF;
-IdModule  = c_0603;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /56081475;
 Reference = C12;
 ValeurCmp = 100nF;
-IdModule  = c_0603;
+IdModule  = SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /56081466;
 Reference = C13;
 ValeurCmp = 330pF;
-IdModule  = c_0603;
+IdModule  = SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /56097560;
 Reference = CN1;
 ValeurCmp = RB-CN10;
-IdModule  = ;
+IdModule  = RB_CN10_2mm;
 EndCmp
 
 BeginCmp
@@ -57,38 +57,52 @@ IdModule  = RF_SMA;
 EndCmp
 
 BeginCmp
+TimeStamp = /56235FC1;
+Reference = CN3;
+ValeurCmp = ANT;
+IdModule  = U.FL-R-SMT_01;
+EndCmp
+
+BeginCmp
 TimeStamp = /560814A2;
 Reference = CX1;
 ValeurCmp = C;
-IdModule  = c_0603;
+IdModule  = SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /56081506;
 Reference = L0;
 ValeurCmp = 150nH;
-IdModule  = c_0603;
+IdModule  = SM0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /560814E8;
 Reference = L7;
 ValeurCmp = 10uH;
-IdModule  = c_0603;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /560814F7;
 Reference = L8;
 ValeurCmp = 100nH;
-IdModule  = c_0603;
+IdModule  = SM0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /560814CF;
-Reference = R0;
-ValeurCmp = R;
-IdModule  = SM0603;
+TimeStamp = /5623617F;
+Reference = R1;
+ValeurCmp = 0R;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5623618E;
+Reference = R2;
+ValeurCmp = 0R;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
@@ -109,7 +123,7 @@ BeginCmp
 TimeStamp = /56081515;
 Reference = X1;
 ValeurCmp = 50Mhz;
-IdModule  = CRYSTAL-ABM3B;
+IdModule  = CRYSTAL-ABM3-50.000MHZ-D2Y-F-T;
 EndCmp
 
 EndListe

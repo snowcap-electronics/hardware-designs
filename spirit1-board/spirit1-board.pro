@@ -1,4 +1,4 @@
-update=Mon 28 Sep 2015 08:29:47 PM EEST
+update=Sun 18 Oct 2015 01:55:51 PM EEST
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -50,12 +50,12 @@ LibName30=valves
 LibName31=/home/kulve/projects/flyingfox/hardware-designs/kicad/snowcap
 [pcbnew]
 version=1
-LastNetListRead=
+LastNetListRead=spirit1-board.net
 UseCmpFile=1
-PadDrill=0.600000000000
-PadDrillOvalY=0.600000000000
-PadSizeH=1.500000000000
-PadSizeV=1.500000000000
+PadDrill=0.000000000000
+PadDrillOvalY=0.000000000000
+PadSizeH=2.500000000000
+PadSizeV=2.400000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
