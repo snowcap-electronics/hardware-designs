@@ -30,13 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:snowcap
+LIBS:si7021-board-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "18 oct 2015"
+Date "25 oct 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -78,22 +79,22 @@ F 3 "~" H 4800 3950 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R 10k1
+L R R2
 U 1 1 56238BDB
 P 3400 3950
-F 0 "10k1" V 3480 3950 40  0000 C CNN
-F 1 "R" V 3407 3951 40  0000 C CNN
+F 0 "R2" V 3480 3950 40  0000 C CNN
+F 1 "10k" V 3407 3951 40  0000 C CNN
 F 2 "~" V 3330 3950 30  0000 C CNN
 F 3 "~" H 3400 3950 30  0000 C CNN
 	1    3400 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L C 0.1uF1
+L C C1
 U 1 1 56238BF4
 P 5000 5100
-F 0 "0.1uF1" H 5000 5200 40  0000 L CNN
-F 1 "C" H 5006 5015 40  0000 L CNN
+F 0 "C1" H 5000 5200 40  0000 L CNN
+F 1 "0.1uF" H 5006 5015 40  0000 L CNN
 F 2 "~" H 5038 4950 30  0000 C CNN
 F 3 "~" H 5000 5100 60  0000 C CNN
 	1    5000 5100

@@ -1,22 +1,22 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Sun 18 Oct 2015 03:21:38 PM EEST
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Sun 25 Oct 2015 02:58:26 PM EET
 
 BeginCmp
 TimeStamp = /56238BF4;
-Reference = 0.1uF1;
-ValeurCmp = C;
+Reference = C1;
+ValeurCmp = 0.1uF;
 IdModule  = SM0603_Capa;
-EndCmp
-
-BeginCmp
-TimeStamp = /56238BDB;
-Reference = 10k1;
-ValeurCmp = R;
-IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /56238BCC;
 Reference = R1;
+ValeurCmp = 10k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /56238BDB;
+Reference = R2;
 ValeurCmp = 10k;
 IdModule  = SM0603_Resistor;
 EndCmp
