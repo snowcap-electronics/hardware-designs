@@ -32,7 +32,7 @@
   )
 
   (setup
-    (last_trace_width 0.3048)
+    (last_trace_width 0.2032)
     (user_trace_width 0.3048)
     (trace_clearance 0.2032)
     (zone_clearance 0.254)
@@ -168,15 +168,15 @@
     (uvia_drill 0.127)
   )
 
-  (module SPIRIT1_QFN20 (layer F.Cu) (tedit 562CEDE0) (tstamp 5609836A)
+  (module SPIRIT1_QFN20 (layer F.Cu) (tedit 563F898B) (tstamp 5609836A)
     (at 99.949 106.045)
     (path /560810DF)
     (solder_mask_margin 0.05)
     (clearance 0.05)
-    (fp_text reference U1 (at -4.572 -11.811) (layer F.SilkS)
+    (fp_text reference U1 (at -4.572 -11.811) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SPIRIT1 (at -8.255 -1.905 90) (layer F.SilkS)
+    (fp_text value SPIRIT1 (at -8.255 -1.905 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center -2 -2) (end -1.7 -1.7) (layer F.SilkS) (width 0.15))
@@ -267,16 +267,16 @@
     )
   )
 
-  (module RF_SMA (layer F.Cu) (tedit 5634CA8D) (tstamp 5634CA60)
+  (module RF_SMA (layer F.Cu) (tedit 563F899A) (tstamp 5634CA60)
     (at 119.85 105.725 90)
     (descr "SSOP 28 pins")
     (tags "CMS SSOP SMD")
     (path /56081457)
     (attr smd)
-    (fp_text reference CN2 (at -2.90068 0.8001 90) (layer F.SilkS)
+    (fp_text reference CN2 (at -2.90068 0.8001 90) (layer F.SilkS) hide
       (effects (font (size 0.50038 0.50038) (thickness 0.12446)))
     )
-    (fp_text value ANT (at -1.45034 0.8001 90) (layer F.SilkS)
+    (fp_text value ANT (at -1.45034 0.8001 90) (layer F.SilkS) hide
       (effects (font (size 0.50038 0.50038) (thickness 0.12446)))
     )
     (pad 2 smd rect (at 2.54 -2.30124 90) (size 1.524 4.572)
@@ -306,15 +306,15 @@
     )
   )
 
-  (module BALF_SPI_02D3 (layer F.Cu) (tedit 562CED2E) (tstamp 5609840C)
+  (module BALF_SPI_02D3 (layer F.Cu) (tedit 563F8981) (tstamp 5609840C)
     (at 101.15 109.47 180)
     (path /5608142A)
     (solder_paste_margin -0.1)
     (clearance 0.05)
-    (fp_text reference U2 (at 9.583 0.885 270) (layer F.SilkS)
+    (fp_text reference U2 (at 9.583 0.885 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value BALF-SPI-02D3 (at 11.361 4.695 270) (layer F.SilkS)
+    (fp_text value BALF-SPI-02D3 (at 11.361 4.695 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 1.1 -0.8) (end 1.3 -0.9) (layer F.SilkS) (width 0.15))
@@ -348,13 +348,13 @@
     )
   )
 
-  (module RB_CN10_2mm (layer F.Cu) (tedit 562CEDBD) (tstamp 560D5D44)
+  (module RB_CN10_2mm (layer F.Cu) (tedit 563F898E) (tstamp 560D5D44)
     (at 103.8352 107.315)
     (path /56097560)
-    (fp_text reference CN1 (at -5.4102 -13.081) (layer F.SilkS)
+    (fp_text reference CN1 (at -5.4102 -13.081) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value RB-CN10 (at 1.5748 -12.954) (layer F.SilkS)
+    (fp_text value RB-CN10 (at 1.5748 -12.954) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -10.1 -11.6) (end 10 -11.6) (layer F.SilkS) (width 0.381))
@@ -497,15 +497,15 @@
     )
   )
 
-  (module U.FL-R-SMT_01 (layer F.Cu) (tedit 562CEA5F) (tstamp 5623C202)
+  (module U.FL-R-SMT_01 (layer F.Cu) (tedit 563F899F) (tstamp 5623C202)
     (at 116.7 113.7 270)
     (path /56235FC1)
     (solder_mask_margin 0.1)
     (clearance 0.1)
-    (fp_text reference CN3 (at 0.092 -6.236 270) (layer F.SilkS)
+    (fp_text reference CN3 (at 0.092 -6.236 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value ANT (at -0.035 -4.839 270) (layer F.SilkS)
+    (fp_text value ANT (at -0.035 -4.839 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.397 1.27) (end -1.397 1.905) (layer F.SilkS) (width 0.15))
@@ -591,13 +591,13 @@
     )
   )
 
-  (module CRYSTAL-ABM3-50.000MHZ-D2Y-F-T (layer F.Cu) (tedit 562CED27) (tstamp 56098385)
+  (module CRYSTAL-ABM3-50.000MHZ-D2Y-F-T (layer F.Cu) (tedit 563F8983) (tstamp 56098385)
     (at 95.9 113 270)
     (path /56081515)
     (fp_text reference X1 (at 0.157 -0.112 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 50Mhz (at 0.157 3.952 270) (layer F.SilkS)
+    (fp_text value 50Mhz (at 0.157 3.952 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 2.54 1.651) (end 2.54 2.413) (layer F.SilkS) (width 0.15))
