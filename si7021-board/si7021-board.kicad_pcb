@@ -138,13 +138,13 @@
     )
   )
 
-  (module SHIELD_I2C (layer F.Cu) (tedit 562CD40D) (tstamp 56238F5E)
+  (module SHIELD_I2C (layer F.Cu) (tedit 563F89E9) (tstamp 56238F5E)
     (at 136.652 83.82)
     (path /5623890D)
-    (fp_text reference U1 (at 0.127 -26.035) (layer F.SilkS)
+    (fp_text reference U1 (at 0.127 -26.035) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SHIELD_I2C (at 0.127 24.511) (layer F.SilkS)
+    (fp_text value SHIELD_I2C (at 0.127 24.511) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -4.826 20.574) (end 4.826 20.574) (layer F.SilkS) (width 0.15))
@@ -185,14 +185,14 @@
     )
   )
 
-  (module SI7021 (layer F.Cu) (tedit 562CD40B) (tstamp 56238F4A)
+  (module SI7021 (layer F.Cu) (tedit 563F89EB) (tstamp 56238F4A)
     (at 136.652 84.074 180)
     (path /56238BBD)
     (clearance 0.1)
-    (fp_text reference U2 (at -0.127 -25.908 180) (layer F.SilkS)
+    (fp_text reference U2 (at -0.127 -25.908 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SI7021 (at -0.381 24.003 180) (layer F.SilkS)
+    (fp_text value SI7021 (at -0.381 24.003 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center -1.778 -1.778) (end -2.032 -2.032) (layer F.SilkS) (width 0.15))
